@@ -1,0 +1,15 @@
+[1] Config.pm:312> INFO - This is Biber 2.15
+[1] Config.pm:315> INFO - Logfile is 'Grad_Benjamin-Stockton-Project.blg'
+[158] biber:330> INFO - === Tue Dec 15, 2020, 18:08:00
+[195] Biber.pm:415> INFO - Reading 'Grad_Benjamin-Stockton-Project.bcf'
+[365] Biber.pm:952> INFO - Found 11 citekeys in bib section 0
+[386] Biber.pm:4334> INFO - Processing section 0
+[400] Biber.pm:4523> INFO - Looking for bibtex format file 'final_project.bib' for section 0
+[402] bibtex.pm:1682> INFO - LaTeX decoding ...
+[428] bibtex.pm:1494> INFO - Found BibTeX data source 'final_project.bib'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[567] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[567] Biber.pm:4162> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[568] Biber.pm:4168> INFO - No sort tailoring available for locale 'en-US'
+[588] bbl.pm:651> INFO - Writing 'Grad_Benjamin-Stockton-Project.bbl' with encoding 'UTF-8'
+[603] bbl.pm:754> INFO - Output to Grad_Benjamin-Stockton-Project.bbl

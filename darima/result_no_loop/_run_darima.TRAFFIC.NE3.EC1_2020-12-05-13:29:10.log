@@ -1,0 +1,692 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.apache.spark.unsafe.Platform (file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/jars/spark-unsafe_2.12-3.0.1.jar) to constructor java.nio.DirectByteBuffer(long,int)
+WARNING: Please consider reporting this to the maintainers of org.apache.spark.unsafe.Platform
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+20/12/05 13:29:12 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/05 13:29:13 INFO SparkContext: Running Spark version 3.0.1
+20/12/05 13:29:13 INFO ResourceUtils: ==============================================================
+20/12/05 13:29:13 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/05 13:29:13 INFO ResourceUtils: ==============================================================
+20/12/05 13:29:13 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/05 13:29:13 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/05 13:29:13 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/05 13:29:13 INFO SecurityManager: Changing view acls groups to: 
+20/12/05 13:29:13 INFO SecurityManager: Changing modify acls groups to: 
+20/12/05 13:29:13 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/05 13:29:14 INFO Utils: Successfully started service 'sparkDriver' on port 41595.
+20/12/05 13:29:14 INFO SparkEnv: Registering MapOutputTracker
+20/12/05 13:29:14 INFO SparkEnv: Registering BlockManagerMaster
+20/12/05 13:29:14 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/05 13:29:14 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/05 13:29:14 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/05 13:29:14 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-441f62a2-a582-404e-af0f-85770be78782
+20/12/05 13:29:14 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/05 13:29:14 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/05 13:29:14 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+20/12/05 13:29:15 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4040
+20/12/05 13:29:15 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/05 13:29:15 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/05 13:29:16 INFO Configuration: resource-types.xml not found
+20/12/05 13:29:16 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/05 13:29:16 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/05 13:29:16 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/05 13:29:16 INFO Client: Setting up container launch context for our AM
+20/12/05 13:29:16 INFO Client: Setting up the launch environment for our AM container
+20/12/05 13:29:16 INFO Client: Preparing resources for our AM container
+20/12/05 13:29:16 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/05 13:29:18 INFO Client: Uploading resource file:/tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/__spark_libs__3899550109665949162.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607184218172_0009/__spark_libs__3899550109665949162.zip
+20/12/05 13:29:20 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607184218172_0009/pyspark.zip
+20/12/05 13:29:20 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607184218172_0009/py4j-0.10.9-src.zip
+20/12/05 13:29:20 INFO Client: Uploading resource file:/tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/__spark_conf__8775517470764399946.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607184218172_0009/__spark_conf__.zip
+20/12/05 13:29:20 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/05 13:29:20 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/05 13:29:20 INFO SecurityManager: Changing view acls groups to: 
+20/12/05 13:29:20 INFO SecurityManager: Changing modify acls groups to: 
+20/12/05 13:29:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/05 13:29:20 INFO Client: Submitting application application_1607184218172_0009 to ResourceManager
+20/12/05 13:29:20 INFO YarnClientImpl: Submitted application application_1607184218172_0009
+20/12/05 13:29:21 INFO Client: Application report for application_1607184218172_0009 (state: ACCEPTED)
+20/12/05 13:29:21 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607192960693
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607184218172_0009/
+	 user: bsuconn
+20/12/05 13:29:22 INFO Client: Application report for application_1607184218172_0009 (state: ACCEPTED)
+20/12/05 13:29:23 INFO Client: Application report for application_1607184218172_0009 (state: ACCEPTED)
+20/12/05 13:29:24 INFO Client: Application report for application_1607184218172_0009 (state: ACCEPTED)
+20/12/05 13:29:25 INFO Client: Application report for application_1607184218172_0009 (state: RUNNING)
+20/12/05 13:29:25 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607192960693
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607184218172_0009/
+	 user: bsuconn
+20/12/05 13:29:25 INFO YarnClientSchedulerBackend: Application application_1607184218172_0009 has started running.
+20/12/05 13:29:25 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33655.
+20/12/05 13:29:25 INFO NettyBlockTransferService: Server created on 192.168.1.9:33655
+20/12/05 13:29:25 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/05 13:29:25 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 33655, None)
+20/12/05 13:29:25 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:33655 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 33655, None)
+20/12/05 13:29:25 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 33655, None)
+20/12/05 13:29:25 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 33655, None)
+20/12/05 13:29:25 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607184218172_0009), /proxy/application_1607184218172_0009
+20/12/05 13:29:26 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:26 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/05 13:29:30 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/05 13:29:31 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:39514) with ID 1
+20/12/05 13:29:31 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:37677 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 37677, None)
+20/12/05 13:29:32 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:39524) with ID 2
+20/12/05 13:29:32 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:37615 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 37615, None)
+20/12/05 13:29:45 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000000000(ns)
+20/12/05 13:29:45 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/05 13:29:45 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/05 13:29:45 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/05 13:29:45 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:45 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:45 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:45 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:45 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/05 13:29:46 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:41595/files/darima.zip with timestamp 1607192986258
+20/12/05 13:29:46 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip
+20/12/05 13:29:48 INFO InMemoryFileIndex: It took 62 ms to list leaf files for 1 paths.
+20/12/05 13:29:50 INFO InMemoryFileIndex: It took 6 ms to list leaf files for 1 paths.
+20/12/05 13:29:50 INFO FileSourceStrategy: Pruning directories with: 
+20/12/05 13:29:50 INFO FileSourceStrategy: Pushed Filters: 
+20/12/05 13:29:50 INFO FileSourceStrategy: Post-Scan Filters: AtLeastNNulls(n, t#1,traffic_volume#0)
+20/12/05 13:29:50 INFO FileSourceStrategy: Output Data Schema: struct<traffic_volume: double, t: string>
+20/12/05 13:29:51 INFO CodeGenerator: Code generated in 276.789242 ms
+20/12/05 13:29:51 INFO CodeGenerator: Code generated in 30.456202 ms
+20/12/05 13:29:51 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 177.4 KiB, free 5.8 GiB)
+20/12/05 13:29:51 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 28.7 KiB, free 5.8 GiB)
+20/12/05 13:29:51 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.1.9:33655 (size: 28.7 KiB, free: 5.8 GiB)
+20/12/05 13:29:51 INFO SparkContext: Created broadcast 0 from count at NativeMethodAccessorImpl.java:0
+20/12/05 13:29:51 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+20/12/05 13:29:51 INFO SparkContext: Starting job: count at NativeMethodAccessorImpl.java:0
+20/12/05 13:29:51 INFO DAGScheduler: Registering RDD 3 (count at NativeMethodAccessorImpl.java:0) as input to shuffle 0
+20/12/05 13:29:52 INFO DAGScheduler: Got job 0 (count at NativeMethodAccessorImpl.java:0) with 1 output partitions
+20/12/05 13:29:52 INFO DAGScheduler: Final stage: ResultStage 1 (count at NativeMethodAccessorImpl.java:0)
+20/12/05 13:29:52 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 0)
+20/12/05 13:29:52 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 0)
+20/12/05 13:29:52 INFO DAGScheduler: Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+20/12/05 13:29:52 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 16.0 KiB, free 5.8 GiB)
+20/12/05 13:29:52 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 8.0 KiB, free 5.8 GiB)
+20/12/05 13:29:52 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.1.9:33655 (size: 8.0 KiB, free: 5.8 GiB)
+20/12/05 13:29:52 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:29:52 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+20/12/05 13:29:52 INFO YarnScheduler: Adding task set 0.0 with 1 tasks
+20/12/05 13:29:52 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 192.168.1.9, executor 2, partition 0, NODE_LOCAL, 7779 bytes)
+20/12/05 13:29:52 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.1.9:37615 (size: 8.0 KiB, free: 912.3 MiB)
+20/12/05 13:29:54 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.1.9:37615 (size: 28.7 KiB, free: 912.3 MiB)
+20/12/05 13:29:55 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 3297 ms on 192.168.1.9 (executor 2) (1/1)
+20/12/05 13:29:55 INFO YarnScheduler: Removed TaskSet 0.0, whose tasks have all completed, from pool 
+20/12/05 13:29:55 INFO DAGScheduler: ShuffleMapStage 0 (count at NativeMethodAccessorImpl.java:0) finished in 3.442 s
+20/12/05 13:29:55 INFO DAGScheduler: looking for newly runnable stages
+20/12/05 13:29:55 INFO DAGScheduler: running: Set()
+20/12/05 13:29:55 INFO DAGScheduler: waiting: Set(ResultStage 1)
+20/12/05 13:29:55 INFO DAGScheduler: failed: Set()
+20/12/05 13:29:55 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[6] at count at NativeMethodAccessorImpl.java:0), which has no missing parents
+20/12/05 13:29:55 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 10.1 KiB, free 5.8 GiB)
+20/12/05 13:29:55 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 5.0 KiB, free 5.8 GiB)
+20/12/05 13:29:55 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.1.9:33655 (size: 5.0 KiB, free: 5.8 GiB)
+20/12/05 13:29:55 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:29:55 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 1 (MapPartitionsRDD[6] at count at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+20/12/05 13:29:55 INFO YarnScheduler: Adding task set 1.0 with 1 tasks
+20/12/05 13:29:55 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1, 192.168.1.9, executor 1, partition 0, NODE_LOCAL, 7336 bytes)
+20/12/05 13:29:55 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.1.9:37677 (size: 5.0 KiB, free: 912.3 MiB)
+20/12/05 13:29:56 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 0 to 192.168.1.9:39514
+20/12/05 13:29:57 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 1830 ms on 192.168.1.9 (executor 1) (1/1)
+20/12/05 13:29:57 INFO YarnScheduler: Removed TaskSet 1.0, whose tasks have all completed, from pool 
+20/12/05 13:29:57 INFO DAGScheduler: ResultStage 1 (count at NativeMethodAccessorImpl.java:0) finished in 1.844 s
+20/12/05 13:29:57 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+20/12/05 13:29:57 INFO YarnScheduler: Killing all running tasks in stage 1: Stage finished
+20/12/05 13:29:57 INFO DAGScheduler: Job 0 finished: count at NativeMethodAccessorImpl.java:0, took 5.379916 s
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 192.168.1.9:33655 in memory (size: 28.7 KiB, free: 5.8 GiB)
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 192.168.1.9:37615 in memory (size: 28.7 KiB, free: 912.3 MiB)
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.1.9:33655 in memory (size: 5.0 KiB, free: 5.8 GiB)
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 192.168.1.9:37677 in memory (size: 5.0 KiB, free: 912.3 MiB)
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.1.9:37615 in memory (size: 8.0 KiB, free: 912.3 MiB)
+20/12/05 13:29:58 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 192.168.1.9:33655 in memory (size: 8.0 KiB, free: 5.8 GiB)
+20/12/05 13:29:59 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+20/12/05 13:30:00 INFO FileSourceStrategy: Pruning directories with: 
+20/12/05 13:30:00 INFO FileSourceStrategy: Pushed Filters: 
+20/12/05 13:30:00 INFO FileSourceStrategy: Post-Scan Filters: AtLeastNNulls(n, t#1,traffic_volume#0)
+20/12/05 13:30:00 INFO FileSourceStrategy: Output Data Schema: struct<traffic_volume: double, t: string>
+20/12/05 13:30:00 INFO CodeGenerator: Code generated in 26.421361 ms
+20/12/05 13:30:00 INFO CodeGenerator: Code generated in 14.968688 ms
+20/12/05 13:30:00 INFO CodeGenerator: Code generated in 21.212732 ms
+20/12/05 13:30:01 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 177.4 KiB, free 5.8 GiB)
+20/12/05 13:30:01 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 28.7 KiB, free 5.8 GiB)
+20/12/05 13:30:01 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.1.9:33655 (size: 28.7 KiB, free: 5.8 GiB)
+20/12/05 13:30:01 INFO SparkContext: Created broadcast 3 from toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22
+20/12/05 13:30:01 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+20/12/05 13:30:01 INFO SparkContext: Starting job: toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22
+20/12/05 13:30:01 INFO DAGScheduler: Registering RDD 13 (toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) as input to shuffle 1
+20/12/05 13:30:01 INFO DAGScheduler: Got job 1 (toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) with 200 output partitions
+20/12/05 13:30:01 INFO DAGScheduler: Final stage: ResultStage 3 (toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22)
+20/12/05 13:30:01 INFO DAGScheduler: Parents of final stage: List(ShuffleMapStage 2)
+20/12/05 13:30:01 INFO DAGScheduler: Missing parents: List(ShuffleMapStage 2)
+20/12/05 13:30:01 INFO DAGScheduler: Submitting ShuffleMapStage 2 (MapPartitionsRDD[13] at toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22), which has no missing parents
+20/12/05 13:30:01 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 24.3 KiB, free 5.8 GiB)
+20/12/05 13:30:01 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 11.6 KiB, free 5.8 GiB)
+20/12/05 13:30:01 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 192.168.1.9:33655 (size: 11.6 KiB, free: 5.8 GiB)
+20/12/05 13:30:01 INFO SparkContext: Created broadcast 4 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:30:01 INFO DAGScheduler: Submitting 1 missing tasks from ShuffleMapStage 2 (MapPartitionsRDD[13] at toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) (first 15 tasks are for partitions Vector(0))
+20/12/05 13:30:01 INFO YarnScheduler: Adding task set 2.0 with 1 tasks
+20/12/05 13:30:01 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 2, 192.168.1.9, executor 2, partition 0, NODE_LOCAL, 7779 bytes)
+20/12/05 13:30:01 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 192.168.1.9:37615 (size: 11.6 KiB, free: 912.3 MiB)
+20/12/05 13:30:01 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 192.168.1.9:37615 (size: 28.7 KiB, free: 912.3 MiB)
+20/12/05 13:30:02 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 2) in 1272 ms on 192.168.1.9 (executor 2) (1/1)
+20/12/05 13:30:02 INFO YarnScheduler: Removed TaskSet 2.0, whose tasks have all completed, from pool 
+20/12/05 13:30:02 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 33609
+20/12/05 13:30:02 INFO DAGScheduler: ShuffleMapStage 2 (toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) finished in 1.298 s
+20/12/05 13:30:02 INFO DAGScheduler: looking for newly runnable stages
+20/12/05 13:30:02 INFO DAGScheduler: running: Set()
+20/12/05 13:30:02 INFO DAGScheduler: waiting: Set(ResultStage 3)
+20/12/05 13:30:02 INFO DAGScheduler: failed: Set()
+20/12/05 13:30:02 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[18] at toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22), which has no missing parents
+20/12/05 13:30:02 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 428.1 KiB, free 5.8 GiB)
+20/12/05 13:30:02 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 131.5 KiB, free 5.8 GiB)
+20/12/05 13:30:02 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 192.168.1.9:33655 (size: 131.5 KiB, free: 5.8 GiB)
+20/12/05 13:30:02 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:30:02 INFO DAGScheduler: Submitting 200 missing tasks from ResultStage 3 (MapPartitionsRDD[18] at toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14))
+20/12/05 13:30:02 INFO YarnScheduler: Adding task set 3.0 with 200 tasks
+20/12/05 13:30:02 INFO TaskSetManager: Starting task 43.0 in stage 3.0 (TID 3, 192.168.1.9, executor 1, partition 43, NODE_LOCAL, 7336 bytes)
+20/12/05 13:30:02 INFO TaskSetManager: Starting task 51.0 in stage 3.0 (TID 4, 192.168.1.9, executor 2, partition 51, NODE_LOCAL, 7336 bytes)
+20/12/05 13:30:02 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 192.168.1.9:37677 (size: 131.5 KiB, free: 912.2 MiB)
+20/12/05 13:30:02 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 192.168.1.9:37615 (size: 131.5 KiB, free: 912.1 MiB)
+20/12/05 13:30:03 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 192.168.1.9:39514
+20/12/05 13:30:03 INFO MapOutputTrackerMasterEndpoint: Asked to send map output locations for shuffle 1 to 192.168.1.9:39524
+20/12/05 13:30:32 INFO TaskSetManager: Starting task 66.0 in stage 3.0 (TID 5, 192.168.1.9, executor 1, partition 66, NODE_LOCAL, 7336 bytes)
+20/12/05 13:30:32 INFO TaskSetManager: Finished task 43.0 in stage 3.0 (TID 3) in 30412 ms on 192.168.1.9 (executor 1) (1/200)
+20/12/05 13:30:45 INFO TaskSetManager: Starting task 102.0 in stage 3.0 (TID 6, 192.168.1.9, executor 2, partition 102, NODE_LOCAL, 7336 bytes)
+20/12/05 13:30:45 INFO TaskSetManager: Finished task 51.0 in stage 3.0 (TID 4) in 42649 ms on 192.168.1.9 (executor 2) (2/200)
+20/12/05 13:31:13 INFO TaskSetManager: Starting task 174.0 in stage 3.0 (TID 7, 192.168.1.9, executor 2, partition 174, NODE_LOCAL, 7336 bytes)
+20/12/05 13:31:13 INFO TaskSetManager: Finished task 102.0 in stage 3.0 (TID 6) in 28655 ms on 192.168.1.9 (executor 2) (3/200)
+20/12/05 13:31:22 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 8, 192.168.1.9, executor 1, partition 0, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:22 INFO TaskSetManager: Finished task 66.0 in stage 3.0 (TID 5) in 49344 ms on 192.168.1.9 (executor 1) (4/200)
+20/12/05 13:31:22 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 9, 192.168.1.9, executor 1, partition 1, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:22 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 8) in 329 ms on 192.168.1.9 (executor 1) (5/200)
+20/12/05 13:31:22 INFO TaskSetManager: Starting task 2.0 in stage 3.0 (TID 10, 192.168.1.9, executor 1, partition 2, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:22 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 9) in 245 ms on 192.168.1.9 (executor 1) (6/200)
+20/12/05 13:31:23 INFO TaskSetManager: Starting task 3.0 in stage 3.0 (TID 11, 192.168.1.9, executor 1, partition 3, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:23 INFO TaskSetManager: Finished task 2.0 in stage 3.0 (TID 10) in 334 ms on 192.168.1.9 (executor 1) (7/200)
+20/12/05 13:31:23 INFO TaskSetManager: Starting task 4.0 in stage 3.0 (TID 12, 192.168.1.9, executor 1, partition 4, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:23 INFO TaskSetManager: Finished task 3.0 in stage 3.0 (TID 11) in 280 ms on 192.168.1.9 (executor 1) (8/200)
+20/12/05 13:31:23 INFO TaskSetManager: Starting task 5.0 in stage 3.0 (TID 13, 192.168.1.9, executor 1, partition 5, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:23 INFO TaskSetManager: Finished task 4.0 in stage 3.0 (TID 12) in 219 ms on 192.168.1.9 (executor 1) (9/200)
+20/12/05 13:31:23 INFO TaskSetManager: Starting task 6.0 in stage 3.0 (TID 14, 192.168.1.9, executor 1, partition 6, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:23 INFO TaskSetManager: Finished task 5.0 in stage 3.0 (TID 13) in 208 ms on 192.168.1.9 (executor 1) (10/200)
+20/12/05 13:31:24 INFO TaskSetManager: Starting task 7.0 in stage 3.0 (TID 15, 192.168.1.9, executor 1, partition 7, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:24 INFO TaskSetManager: Finished task 6.0 in stage 3.0 (TID 14) in 207 ms on 192.168.1.9 (executor 1) (11/200)
+20/12/05 13:31:24 INFO TaskSetManager: Starting task 8.0 in stage 3.0 (TID 16, 192.168.1.9, executor 1, partition 8, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:24 INFO TaskSetManager: Finished task 7.0 in stage 3.0 (TID 15) in 218 ms on 192.168.1.9 (executor 1) (12/200)
+20/12/05 13:31:24 INFO TaskSetManager: Starting task 9.0 in stage 3.0 (TID 17, 192.168.1.9, executor 1, partition 9, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:24 INFO TaskSetManager: Finished task 8.0 in stage 3.0 (TID 16) in 206 ms on 192.168.1.9 (executor 1) (13/200)
+20/12/05 13:31:24 INFO TaskSetManager: Starting task 10.0 in stage 3.0 (TID 18, 192.168.1.9, executor 1, partition 10, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:24 INFO TaskSetManager: Finished task 9.0 in stage 3.0 (TID 17) in 234 ms on 192.168.1.9 (executor 1) (14/200)
+20/12/05 13:31:24 INFO TaskSetManager: Starting task 11.0 in stage 3.0 (TID 19, 192.168.1.9, executor 1, partition 11, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:24 INFO TaskSetManager: Finished task 10.0 in stage 3.0 (TID 18) in 231 ms on 192.168.1.9 (executor 1) (15/200)
+20/12/05 13:31:25 INFO TaskSetManager: Starting task 12.0 in stage 3.0 (TID 20, 192.168.1.9, executor 1, partition 12, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:25 INFO TaskSetManager: Finished task 11.0 in stage 3.0 (TID 19) in 389 ms on 192.168.1.9 (executor 1) (16/200)
+20/12/05 13:31:25 INFO TaskSetManager: Starting task 13.0 in stage 3.0 (TID 21, 192.168.1.9, executor 1, partition 13, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:25 INFO TaskSetManager: Finished task 12.0 in stage 3.0 (TID 20) in 210 ms on 192.168.1.9 (executor 1) (17/200)
+20/12/05 13:31:25 INFO TaskSetManager: Starting task 14.0 in stage 3.0 (TID 22, 192.168.1.9, executor 1, partition 14, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:25 INFO TaskSetManager: Finished task 13.0 in stage 3.0 (TID 21) in 240 ms on 192.168.1.9 (executor 1) (18/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 15.0 in stage 3.0 (TID 23, 192.168.1.9, executor 1, partition 15, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 14.0 in stage 3.0 (TID 22) in 213 ms on 192.168.1.9 (executor 1) (19/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 16.0 in stage 3.0 (TID 24, 192.168.1.9, executor 1, partition 16, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 15.0 in stage 3.0 (TID 23) in 176 ms on 192.168.1.9 (executor 1) (20/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 17.0 in stage 3.0 (TID 25, 192.168.1.9, executor 1, partition 17, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 16.0 in stage 3.0 (TID 24) in 159 ms on 192.168.1.9 (executor 1) (21/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 18.0 in stage 3.0 (TID 26, 192.168.1.9, executor 1, partition 18, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 17.0 in stage 3.0 (TID 25) in 161 ms on 192.168.1.9 (executor 1) (22/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 19.0 in stage 3.0 (TID 27, 192.168.1.9, executor 1, partition 19, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 18.0 in stage 3.0 (TID 26) in 200 ms on 192.168.1.9 (executor 1) (23/200)
+20/12/05 13:31:26 INFO TaskSetManager: Starting task 20.0 in stage 3.0 (TID 28, 192.168.1.9, executor 1, partition 20, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:26 INFO TaskSetManager: Finished task 19.0 in stage 3.0 (TID 27) in 207 ms on 192.168.1.9 (executor 1) (24/200)
+20/12/05 13:31:27 INFO TaskSetManager: Starting task 21.0 in stage 3.0 (TID 29, 192.168.1.9, executor 1, partition 21, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:27 INFO TaskSetManager: Finished task 20.0 in stage 3.0 (TID 28) in 230 ms on 192.168.1.9 (executor 1) (25/200)
+20/12/05 13:31:27 INFO TaskSetManager: Starting task 22.0 in stage 3.0 (TID 30, 192.168.1.9, executor 1, partition 22, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:27 INFO TaskSetManager: Finished task 21.0 in stage 3.0 (TID 29) in 234 ms on 192.168.1.9 (executor 1) (26/200)
+20/12/05 13:31:27 INFO TaskSetManager: Starting task 23.0 in stage 3.0 (TID 31, 192.168.1.9, executor 1, partition 23, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:27 INFO TaskSetManager: Finished task 22.0 in stage 3.0 (TID 30) in 166 ms on 192.168.1.9 (executor 1) (27/200)
+20/12/05 13:31:27 INFO TaskSetManager: Starting task 24.0 in stage 3.0 (TID 32, 192.168.1.9, executor 1, partition 24, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:27 INFO TaskSetManager: Finished task 23.0 in stage 3.0 (TID 31) in 140 ms on 192.168.1.9 (executor 1) (28/200)
+20/12/05 13:31:27 INFO TaskSetManager: Starting task 25.0 in stage 3.0 (TID 33, 192.168.1.9, executor 1, partition 25, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:27 INFO TaskSetManager: Finished task 24.0 in stage 3.0 (TID 32) in 259 ms on 192.168.1.9 (executor 1) (29/200)
+20/12/05 13:31:28 INFO TaskSetManager: Starting task 26.0 in stage 3.0 (TID 34, 192.168.1.9, executor 1, partition 26, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:28 INFO TaskSetManager: Finished task 25.0 in stage 3.0 (TID 33) in 243 ms on 192.168.1.9 (executor 1) (30/200)
+20/12/05 13:31:28 INFO TaskSetManager: Starting task 27.0 in stage 3.0 (TID 35, 192.168.1.9, executor 2, partition 27, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:28 INFO TaskSetManager: Finished task 174.0 in stage 3.0 (TID 7) in 14470 ms on 192.168.1.9 (executor 2) (31/200)
+20/12/05 13:31:28 INFO TaskSetManager: Starting task 28.0 in stage 3.0 (TID 36, 192.168.1.9, executor 2, partition 28, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:28 INFO TaskSetManager: Finished task 27.0 in stage 3.0 (TID 35) in 264 ms on 192.168.1.9 (executor 2) (32/200)
+20/12/05 13:31:28 INFO TaskSetManager: Starting task 29.0 in stage 3.0 (TID 37, 192.168.1.9, executor 1, partition 29, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:28 INFO TaskSetManager: Finished task 26.0 in stage 3.0 (TID 34) in 435 ms on 192.168.1.9 (executor 1) (33/200)
+20/12/05 13:31:28 INFO TaskSetManager: Starting task 30.0 in stage 3.0 (TID 38, 192.168.1.9, executor 1, partition 30, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:28 INFO TaskSetManager: Finished task 29.0 in stage 3.0 (TID 37) in 319 ms on 192.168.1.9 (executor 1) (34/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 31.0 in stage 3.0 (TID 39, 192.168.1.9, executor 2, partition 31, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 28.0 in stage 3.0 (TID 36) in 528 ms on 192.168.1.9 (executor 2) (35/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 32.0 in stage 3.0 (TID 40, 192.168.1.9, executor 1, partition 32, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 30.0 in stage 3.0 (TID 38) in 213 ms on 192.168.1.9 (executor 1) (36/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 33.0 in stage 3.0 (TID 41, 192.168.1.9, executor 1, partition 33, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 32.0 in stage 3.0 (TID 40) in 231 ms on 192.168.1.9 (executor 1) (37/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 34.0 in stage 3.0 (TID 42, 192.168.1.9, executor 2, partition 34, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 31.0 in stage 3.0 (TID 39) in 362 ms on 192.168.1.9 (executor 2) (38/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 35.0 in stage 3.0 (TID 43, 192.168.1.9, executor 1, partition 35, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 33.0 in stage 3.0 (TID 41) in 257 ms on 192.168.1.9 (executor 1) (39/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 36.0 in stage 3.0 (TID 44, 192.168.1.9, executor 2, partition 36, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 34.0 in stage 3.0 (TID 42) in 285 ms on 192.168.1.9 (executor 2) (40/200)
+20/12/05 13:31:29 INFO TaskSetManager: Starting task 37.0 in stage 3.0 (TID 45, 192.168.1.9, executor 1, partition 37, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:29 INFO TaskSetManager: Finished task 35.0 in stage 3.0 (TID 43) in 290 ms on 192.168.1.9 (executor 1) (41/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 38.0 in stage 3.0 (TID 46, 192.168.1.9, executor 2, partition 38, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 36.0 in stage 3.0 (TID 44) in 353 ms on 192.168.1.9 (executor 2) (42/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 39.0 in stage 3.0 (TID 47, 192.168.1.9, executor 1, partition 39, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 37.0 in stage 3.0 (TID 45) in 286 ms on 192.168.1.9 (executor 1) (43/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 40.0 in stage 3.0 (TID 48, 192.168.1.9, executor 1, partition 40, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 39.0 in stage 3.0 (TID 47) in 221 ms on 192.168.1.9 (executor 1) (44/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 41.0 in stage 3.0 (TID 49, 192.168.1.9, executor 2, partition 41, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 38.0 in stage 3.0 (TID 46) in 318 ms on 192.168.1.9 (executor 2) (45/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 42.0 in stage 3.0 (TID 50, 192.168.1.9, executor 2, partition 42, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 41.0 in stage 3.0 (TID 49) in 267 ms on 192.168.1.9 (executor 2) (46/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 44.0 in stage 3.0 (TID 51, 192.168.1.9, executor 1, partition 44, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 40.0 in stage 3.0 (TID 48) in 332 ms on 192.168.1.9 (executor 1) (47/200)
+20/12/05 13:31:30 INFO TaskSetManager: Starting task 45.0 in stage 3.0 (TID 52, 192.168.1.9, executor 2, partition 45, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:30 INFO TaskSetManager: Finished task 42.0 in stage 3.0 (TID 50) in 261 ms on 192.168.1.9 (executor 2) (48/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 46.0 in stage 3.0 (TID 53, 192.168.1.9, executor 1, partition 46, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 44.0 in stage 3.0 (TID 51) in 292 ms on 192.168.1.9 (executor 1) (49/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 47.0 in stage 3.0 (TID 54, 192.168.1.9, executor 2, partition 47, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 45.0 in stage 3.0 (TID 52) in 407 ms on 192.168.1.9 (executor 2) (50/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 48.0 in stage 3.0 (TID 55, 192.168.1.9, executor 1, partition 48, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 46.0 in stage 3.0 (TID 53) in 365 ms on 192.168.1.9 (executor 1) (51/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 49.0 in stage 3.0 (TID 56, 192.168.1.9, executor 1, partition 49, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 48.0 in stage 3.0 (TID 55) in 247 ms on 192.168.1.9 (executor 1) (52/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 50.0 in stage 3.0 (TID 57, 192.168.1.9, executor 2, partition 50, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 47.0 in stage 3.0 (TID 54) in 471 ms on 192.168.1.9 (executor 2) (53/200)
+20/12/05 13:31:31 INFO TaskSetManager: Starting task 52.0 in stage 3.0 (TID 58, 192.168.1.9, executor 1, partition 52, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:31 INFO TaskSetManager: Finished task 49.0 in stage 3.0 (TID 56) in 332 ms on 192.168.1.9 (executor 1) (54/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 53.0 in stage 3.0 (TID 59, 192.168.1.9, executor 1, partition 53, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 52.0 in stage 3.0 (TID 58) in 191 ms on 192.168.1.9 (executor 1) (55/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 54.0 in stage 3.0 (TID 60, 192.168.1.9, executor 2, partition 54, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 50.0 in stage 3.0 (TID 57) in 369 ms on 192.168.1.9 (executor 2) (56/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 55.0 in stage 3.0 (TID 61, 192.168.1.9, executor 2, partition 55, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 54.0 in stage 3.0 (TID 60) in 263 ms on 192.168.1.9 (executor 2) (57/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 56.0 in stage 3.0 (TID 62, 192.168.1.9, executor 1, partition 56, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 53.0 in stage 3.0 (TID 59) in 332 ms on 192.168.1.9 (executor 1) (58/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 57.0 in stage 3.0 (TID 63, 192.168.1.9, executor 2, partition 57, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 55.0 in stage 3.0 (TID 61) in 232 ms on 192.168.1.9 (executor 2) (59/200)
+20/12/05 13:31:32 INFO TaskSetManager: Starting task 58.0 in stage 3.0 (TID 64, 192.168.1.9, executor 1, partition 58, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:32 INFO TaskSetManager: Finished task 56.0 in stage 3.0 (TID 62) in 389 ms on 192.168.1.9 (executor 1) (60/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 59.0 in stage 3.0 (TID 65, 192.168.1.9, executor 2, partition 59, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 57.0 in stage 3.0 (TID 63) in 333 ms on 192.168.1.9 (executor 2) (61/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 60.0 in stage 3.0 (TID 66, 192.168.1.9, executor 1, partition 60, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 58.0 in stage 3.0 (TID 64) in 288 ms on 192.168.1.9 (executor 1) (62/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 61.0 in stage 3.0 (TID 67, 192.168.1.9, executor 1, partition 61, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 60.0 in stage 3.0 (TID 66) in 201 ms on 192.168.1.9 (executor 1) (63/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 62.0 in stage 3.0 (TID 68, 192.168.1.9, executor 2, partition 62, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 59.0 in stage 3.0 (TID 65) in 411 ms on 192.168.1.9 (executor 2) (64/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 63.0 in stage 3.0 (TID 69, 192.168.1.9, executor 1, partition 63, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 61.0 in stage 3.0 (TID 67) in 248 ms on 192.168.1.9 (executor 1) (65/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 64.0 in stage 3.0 (TID 70, 192.168.1.9, executor 2, partition 64, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 62.0 in stage 3.0 (TID 68) in 229 ms on 192.168.1.9 (executor 2) (66/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 65.0 in stage 3.0 (TID 71, 192.168.1.9, executor 1, partition 65, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 63.0 in stage 3.0 (TID 69) in 225 ms on 192.168.1.9 (executor 1) (67/200)
+20/12/05 13:31:33 INFO TaskSetManager: Starting task 67.0 in stage 3.0 (TID 72, 192.168.1.9, executor 2, partition 67, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:33 INFO TaskSetManager: Finished task 64.0 in stage 3.0 (TID 70) in 235 ms on 192.168.1.9 (executor 2) (68/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 68.0 in stage 3.0 (TID 73, 192.168.1.9, executor 2, partition 68, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 67.0 in stage 3.0 (TID 72) in 240 ms on 192.168.1.9 (executor 2) (69/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 69.0 in stage 3.0 (TID 74, 192.168.1.9, executor 1, partition 69, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 65.0 in stage 3.0 (TID 71) in 351 ms on 192.168.1.9 (executor 1) (70/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 70.0 in stage 3.0 (TID 75, 192.168.1.9, executor 2, partition 70, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 68.0 in stage 3.0 (TID 73) in 238 ms on 192.168.1.9 (executor 2) (71/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 71.0 in stage 3.0 (TID 76, 192.168.1.9, executor 1, partition 71, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 69.0 in stage 3.0 (TID 74) in 241 ms on 192.168.1.9 (executor 1) (72/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 72.0 in stage 3.0 (TID 77, 192.168.1.9, executor 2, partition 72, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 70.0 in stage 3.0 (TID 75) in 252 ms on 192.168.1.9 (executor 2) (73/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 73.0 in stage 3.0 (TID 78, 192.168.1.9, executor 1, partition 73, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 71.0 in stage 3.0 (TID 76) in 252 ms on 192.168.1.9 (executor 1) (74/200)
+20/12/05 13:31:34 INFO TaskSetManager: Starting task 74.0 in stage 3.0 (TID 79, 192.168.1.9, executor 1, partition 74, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:34 INFO TaskSetManager: Finished task 73.0 in stage 3.0 (TID 78) in 271 ms on 192.168.1.9 (executor 1) (75/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 75.0 in stage 3.0 (TID 80, 192.168.1.9, executor 2, partition 75, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 72.0 in stage 3.0 (TID 77) in 434 ms on 192.168.1.9 (executor 2) (76/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 76.0 in stage 3.0 (TID 81, 192.168.1.9, executor 1, partition 76, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 74.0 in stage 3.0 (TID 79) in 216 ms on 192.168.1.9 (executor 1) (77/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 77.0 in stage 3.0 (TID 82, 192.168.1.9, executor 2, partition 77, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 75.0 in stage 3.0 (TID 80) in 234 ms on 192.168.1.9 (executor 2) (78/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 78.0 in stage 3.0 (TID 83, 192.168.1.9, executor 1, partition 78, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 76.0 in stage 3.0 (TID 81) in 216 ms on 192.168.1.9 (executor 1) (79/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 79.0 in stage 3.0 (TID 84, 192.168.1.9, executor 2, partition 79, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 77.0 in stage 3.0 (TID 82) in 216 ms on 192.168.1.9 (executor 2) (80/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 80.0 in stage 3.0 (TID 85, 192.168.1.9, executor 1, partition 80, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 78.0 in stage 3.0 (TID 83) in 284 ms on 192.168.1.9 (executor 1) (81/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 81.0 in stage 3.0 (TID 86, 192.168.1.9, executor 2, partition 81, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 79.0 in stage 3.0 (TID 84) in 231 ms on 192.168.1.9 (executor 2) (82/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 82.0 in stage 3.0 (TID 87, 192.168.1.9, executor 1, partition 82, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 80.0 in stage 3.0 (TID 85) in 209 ms on 192.168.1.9 (executor 1) (83/200)
+20/12/05 13:31:35 INFO TaskSetManager: Starting task 83.0 in stage 3.0 (TID 88, 192.168.1.9, executor 2, partition 83, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:35 INFO TaskSetManager: Finished task 81.0 in stage 3.0 (TID 86) in 199 ms on 192.168.1.9 (executor 2) (84/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 84.0 in stage 3.0 (TID 89, 192.168.1.9, executor 1, partition 84, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 82.0 in stage 3.0 (TID 87) in 226 ms on 192.168.1.9 (executor 1) (85/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 85.0 in stage 3.0 (TID 90, 192.168.1.9, executor 2, partition 85, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 83.0 in stage 3.0 (TID 88) in 262 ms on 192.168.1.9 (executor 2) (86/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 86.0 in stage 3.0 (TID 91, 192.168.1.9, executor 1, partition 86, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 84.0 in stage 3.0 (TID 89) in 243 ms on 192.168.1.9 (executor 1) (87/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 87.0 in stage 3.0 (TID 92, 192.168.1.9, executor 2, partition 87, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 85.0 in stage 3.0 (TID 90) in 228 ms on 192.168.1.9 (executor 2) (88/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 88.0 in stage 3.0 (TID 93, 192.168.1.9, executor 1, partition 88, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 86.0 in stage 3.0 (TID 91) in 237 ms on 192.168.1.9 (executor 1) (89/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 89.0 in stage 3.0 (TID 94, 192.168.1.9, executor 2, partition 89, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 87.0 in stage 3.0 (TID 92) in 232 ms on 192.168.1.9 (executor 2) (90/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 90.0 in stage 3.0 (TID 95, 192.168.1.9, executor 1, partition 90, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 88.0 in stage 3.0 (TID 93) in 236 ms on 192.168.1.9 (executor 1) (91/200)
+20/12/05 13:31:36 INFO TaskSetManager: Starting task 91.0 in stage 3.0 (TID 96, 192.168.1.9, executor 2, partition 91, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:36 INFO TaskSetManager: Finished task 89.0 in stage 3.0 (TID 94) in 221 ms on 192.168.1.9 (executor 2) (92/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 92.0 in stage 3.0 (TID 97, 192.168.1.9, executor 1, partition 92, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 90.0 in stage 3.0 (TID 95) in 267 ms on 192.168.1.9 (executor 1) (93/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 93.0 in stage 3.0 (TID 98, 192.168.1.9, executor 2, partition 93, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 91.0 in stage 3.0 (TID 96) in 255 ms on 192.168.1.9 (executor 2) (94/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 94.0 in stage 3.0 (TID 99, 192.168.1.9, executor 2, partition 94, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 93.0 in stage 3.0 (TID 98) in 230 ms on 192.168.1.9 (executor 2) (95/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 95.0 in stage 3.0 (TID 100, 192.168.1.9, executor 1, partition 95, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 92.0 in stage 3.0 (TID 97) in 275 ms on 192.168.1.9 (executor 1) (96/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 96.0 in stage 3.0 (TID 101, 192.168.1.9, executor 2, partition 96, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 94.0 in stage 3.0 (TID 99) in 318 ms on 192.168.1.9 (executor 2) (97/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 97.0 in stage 3.0 (TID 102, 192.168.1.9, executor 1, partition 97, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 95.0 in stage 3.0 (TID 100) in 322 ms on 192.168.1.9 (executor 1) (98/200)
+20/12/05 13:31:37 INFO TaskSetManager: Starting task 98.0 in stage 3.0 (TID 103, 192.168.1.9, executor 2, partition 98, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:37 INFO TaskSetManager: Finished task 96.0 in stage 3.0 (TID 101) in 243 ms on 192.168.1.9 (executor 2) (99/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 99.0 in stage 3.0 (TID 104, 192.168.1.9, executor 1, partition 99, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 97.0 in stage 3.0 (TID 102) in 339 ms on 192.168.1.9 (executor 1) (100/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 100.0 in stage 3.0 (TID 105, 192.168.1.9, executor 2, partition 100, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 98.0 in stage 3.0 (TID 103) in 222 ms on 192.168.1.9 (executor 2) (101/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 101.0 in stage 3.0 (TID 106, 192.168.1.9, executor 1, partition 101, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 99.0 in stage 3.0 (TID 104) in 227 ms on 192.168.1.9 (executor 1) (102/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 103.0 in stage 3.0 (TID 107, 192.168.1.9, executor 2, partition 103, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 100.0 in stage 3.0 (TID 105) in 211 ms on 192.168.1.9 (executor 2) (103/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 104.0 in stage 3.0 (TID 108, 192.168.1.9, executor 1, partition 104, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 101.0 in stage 3.0 (TID 106) in 199 ms on 192.168.1.9 (executor 1) (104/200)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 103.0 in stage 3.0 (TID 107) in 223 ms on 192.168.1.9 (executor 2) (105/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 105.0 in stage 3.0 (TID 109, 192.168.1.9, executor 2, partition 105, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 106.0 in stage 3.0 (TID 110, 192.168.1.9, executor 1, partition 106, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 104.0 in stage 3.0 (TID 108) in 204 ms on 192.168.1.9 (executor 1) (106/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 107.0 in stage 3.0 (TID 111, 192.168.1.9, executor 2, partition 107, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 105.0 in stage 3.0 (TID 109) in 260 ms on 192.168.1.9 (executor 2) (107/200)
+20/12/05 13:31:38 INFO TaskSetManager: Starting task 108.0 in stage 3.0 (TID 112, 192.168.1.9, executor 1, partition 108, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:38 INFO TaskSetManager: Finished task 106.0 in stage 3.0 (TID 110) in 281 ms on 192.168.1.9 (executor 1) (108/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 109.0 in stage 3.0 (TID 113, 192.168.1.9, executor 2, partition 109, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 107.0 in stage 3.0 (TID 111) in 207 ms on 192.168.1.9 (executor 2) (109/200)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 108.0 in stage 3.0 (TID 112) in 239 ms on 192.168.1.9 (executor 1) (110/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 110.0 in stage 3.0 (TID 114, 192.168.1.9, executor 1, partition 110, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 111.0 in stage 3.0 (TID 115, 192.168.1.9, executor 2, partition 111, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 109.0 in stage 3.0 (TID 113) in 235 ms on 192.168.1.9 (executor 2) (111/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 112.0 in stage 3.0 (TID 116, 192.168.1.9, executor 1, partition 112, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 110.0 in stage 3.0 (TID 114) in 221 ms on 192.168.1.9 (executor 1) (112/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 113.0 in stage 3.0 (TID 117, 192.168.1.9, executor 2, partition 113, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 111.0 in stage 3.0 (TID 115) in 187 ms on 192.168.1.9 (executor 2) (113/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 114.0 in stage 3.0 (TID 118, 192.168.1.9, executor 1, partition 114, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 112.0 in stage 3.0 (TID 116) in 201 ms on 192.168.1.9 (executor 1) (114/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 115.0 in stage 3.0 (TID 119, 192.168.1.9, executor 2, partition 115, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 113.0 in stage 3.0 (TID 117) in 224 ms on 192.168.1.9 (executor 2) (115/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 116.0 in stage 3.0 (TID 120, 192.168.1.9, executor 1, partition 116, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 114.0 in stage 3.0 (TID 118) in 213 ms on 192.168.1.9 (executor 1) (116/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 117.0 in stage 3.0 (TID 121, 192.168.1.9, executor 2, partition 117, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 115.0 in stage 3.0 (TID 119) in 207 ms on 192.168.1.9 (executor 2) (117/200)
+20/12/05 13:31:39 INFO TaskSetManager: Starting task 118.0 in stage 3.0 (TID 122, 192.168.1.9, executor 1, partition 118, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:39 INFO TaskSetManager: Finished task 116.0 in stage 3.0 (TID 120) in 219 ms on 192.168.1.9 (executor 1) (118/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 119.0 in stage 3.0 (TID 123, 192.168.1.9, executor 2, partition 119, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 117.0 in stage 3.0 (TID 121) in 230 ms on 192.168.1.9 (executor 2) (119/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 120.0 in stage 3.0 (TID 124, 192.168.1.9, executor 1, partition 120, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 118.0 in stage 3.0 (TID 122) in 203 ms on 192.168.1.9 (executor 1) (120/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 121.0 in stage 3.0 (TID 125, 192.168.1.9, executor 2, partition 121, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 119.0 in stage 3.0 (TID 123) in 200 ms on 192.168.1.9 (executor 2) (121/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 122.0 in stage 3.0 (TID 126, 192.168.1.9, executor 1, partition 122, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 120.0 in stage 3.0 (TID 124) in 243 ms on 192.168.1.9 (executor 1) (122/200)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 121.0 in stage 3.0 (TID 125) in 296 ms on 192.168.1.9 (executor 2) (123/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 123.0 in stage 3.0 (TID 127, 192.168.1.9, executor 2, partition 123, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 124.0 in stage 3.0 (TID 128, 192.168.1.9, executor 1, partition 124, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 122.0 in stage 3.0 (TID 126) in 225 ms on 192.168.1.9 (executor 1) (124/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 125.0 in stage 3.0 (TID 129, 192.168.1.9, executor 2, partition 125, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 123.0 in stage 3.0 (TID 127) in 229 ms on 192.168.1.9 (executor 2) (125/200)
+20/12/05 13:31:40 INFO TaskSetManager: Starting task 126.0 in stage 3.0 (TID 130, 192.168.1.9, executor 1, partition 126, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:40 INFO TaskSetManager: Finished task 124.0 in stage 3.0 (TID 128) in 220 ms on 192.168.1.9 (executor 1) (126/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 127.0 in stage 3.0 (TID 131, 192.168.1.9, executor 2, partition 127, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 125.0 in stage 3.0 (TID 129) in 240 ms on 192.168.1.9 (executor 2) (127/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 128.0 in stage 3.0 (TID 132, 192.168.1.9, executor 1, partition 128, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 126.0 in stage 3.0 (TID 130) in 212 ms on 192.168.1.9 (executor 1) (128/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 129.0 in stage 3.0 (TID 133, 192.168.1.9, executor 1, partition 129, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 128.0 in stage 3.0 (TID 132) in 222 ms on 192.168.1.9 (executor 1) (129/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 130.0 in stage 3.0 (TID 134, 192.168.1.9, executor 2, partition 130, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 127.0 in stage 3.0 (TID 131) in 307 ms on 192.168.1.9 (executor 2) (130/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 131.0 in stage 3.0 (TID 135, 192.168.1.9, executor 2, partition 131, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 130.0 in stage 3.0 (TID 134) in 288 ms on 192.168.1.9 (executor 2) (131/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 132.0 in stage 3.0 (TID 136, 192.168.1.9, executor 1, partition 132, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 129.0 in stage 3.0 (TID 133) in 342 ms on 192.168.1.9 (executor 1) (132/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 133.0 in stage 3.0 (TID 137, 192.168.1.9, executor 2, partition 133, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 131.0 in stage 3.0 (TID 135) in 259 ms on 192.168.1.9 (executor 2) (133/200)
+20/12/05 13:31:41 INFO TaskSetManager: Starting task 134.0 in stage 3.0 (TID 138, 192.168.1.9, executor 1, partition 134, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:41 INFO TaskSetManager: Finished task 132.0 in stage 3.0 (TID 136) in 254 ms on 192.168.1.9 (executor 1) (134/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 135.0 in stage 3.0 (TID 139, 192.168.1.9, executor 1, partition 135, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 134.0 in stage 3.0 (TID 138) in 208 ms on 192.168.1.9 (executor 1) (135/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 136.0 in stage 3.0 (TID 140, 192.168.1.9, executor 2, partition 136, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 133.0 in stage 3.0 (TID 137) in 377 ms on 192.168.1.9 (executor 2) (136/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 137.0 in stage 3.0 (TID 141, 192.168.1.9, executor 1, partition 137, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 135.0 in stage 3.0 (TID 139) in 235 ms on 192.168.1.9 (executor 1) (137/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 138.0 in stage 3.0 (TID 142, 192.168.1.9, executor 2, partition 138, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 136.0 in stage 3.0 (TID 140) in 208 ms on 192.168.1.9 (executor 2) (138/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 139.0 in stage 3.0 (TID 143, 192.168.1.9, executor 1, partition 139, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 137.0 in stage 3.0 (TID 141) in 249 ms on 192.168.1.9 (executor 1) (139/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 140.0 in stage 3.0 (TID 144, 192.168.1.9, executor 2, partition 140, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 138.0 in stage 3.0 (TID 142) in 204 ms on 192.168.1.9 (executor 2) (140/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 141.0 in stage 3.0 (TID 145, 192.168.1.9, executor 1, partition 141, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 139.0 in stage 3.0 (TID 143) in 216 ms on 192.168.1.9 (executor 1) (141/200)
+20/12/05 13:31:42 INFO TaskSetManager: Starting task 142.0 in stage 3.0 (TID 146, 192.168.1.9, executor 2, partition 142, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:42 INFO TaskSetManager: Finished task 140.0 in stage 3.0 (TID 144) in 221 ms on 192.168.1.9 (executor 2) (142/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 143.0 in stage 3.0 (TID 147, 192.168.1.9, executor 1, partition 143, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 141.0 in stage 3.0 (TID 145) in 209 ms on 192.168.1.9 (executor 1) (143/200)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 142.0 in stage 3.0 (TID 146) in 221 ms on 192.168.1.9 (executor 2) (144/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 144.0 in stage 3.0 (TID 148, 192.168.1.9, executor 2, partition 144, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 145.0 in stage 3.0 (TID 149, 192.168.1.9, executor 1, partition 145, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 143.0 in stage 3.0 (TID 147) in 203 ms on 192.168.1.9 (executor 1) (145/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 146.0 in stage 3.0 (TID 150, 192.168.1.9, executor 2, partition 146, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 144.0 in stage 3.0 (TID 148) in 140 ms on 192.168.1.9 (executor 2) (146/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 147.0 in stage 3.0 (TID 151, 192.168.1.9, executor 1, partition 147, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 145.0 in stage 3.0 (TID 149) in 181 ms on 192.168.1.9 (executor 1) (147/200)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 146.0 in stage 3.0 (TID 150) in 166 ms on 192.168.1.9 (executor 2) (148/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 148.0 in stage 3.0 (TID 152, 192.168.1.9, executor 2, partition 148, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 149.0 in stage 3.0 (TID 153, 192.168.1.9, executor 2, partition 149, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 148.0 in stage 3.0 (TID 152) in 117 ms on 192.168.1.9 (executor 2) (149/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 150.0 in stage 3.0 (TID 154, 192.168.1.9, executor 1, partition 150, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 147.0 in stage 3.0 (TID 151) in 178 ms on 192.168.1.9 (executor 1) (150/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 151.0 in stage 3.0 (TID 155, 192.168.1.9, executor 2, partition 151, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 149.0 in stage 3.0 (TID 153) in 173 ms on 192.168.1.9 (executor 2) (151/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 152.0 in stage 3.0 (TID 156, 192.168.1.9, executor 1, partition 152, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 150.0 in stage 3.0 (TID 154) in 172 ms on 192.168.1.9 (executor 1) (152/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 153.0 in stage 3.0 (TID 157, 192.168.1.9, executor 2, partition 153, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 151.0 in stage 3.0 (TID 155) in 129 ms on 192.168.1.9 (executor 2) (153/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 154.0 in stage 3.0 (TID 158, 192.168.1.9, executor 1, partition 154, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 152.0 in stage 3.0 (TID 156) in 152 ms on 192.168.1.9 (executor 1) (154/200)
+20/12/05 13:31:43 INFO TaskSetManager: Starting task 155.0 in stage 3.0 (TID 159, 192.168.1.9, executor 2, partition 155, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:43 INFO TaskSetManager: Finished task 153.0 in stage 3.0 (TID 157) in 115 ms on 192.168.1.9 (executor 2) (155/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 156.0 in stage 3.0 (TID 160, 192.168.1.9, executor 1, partition 156, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 154.0 in stage 3.0 (TID 158) in 138 ms on 192.168.1.9 (executor 1) (156/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 157.0 in stage 3.0 (TID 161, 192.168.1.9, executor 2, partition 157, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 155.0 in stage 3.0 (TID 159) in 125 ms on 192.168.1.9 (executor 2) (157/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 158.0 in stage 3.0 (TID 162, 192.168.1.9, executor 1, partition 158, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 156.0 in stage 3.0 (TID 160) in 157 ms on 192.168.1.9 (executor 1) (158/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 159.0 in stage 3.0 (TID 163, 192.168.1.9, executor 2, partition 159, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 157.0 in stage 3.0 (TID 161) in 146 ms on 192.168.1.9 (executor 2) (159/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 160.0 in stage 3.0 (TID 164, 192.168.1.9, executor 1, partition 160, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 158.0 in stage 3.0 (TID 162) in 133 ms on 192.168.1.9 (executor 1) (160/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 161.0 in stage 3.0 (TID 165, 192.168.1.9, executor 2, partition 161, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 159.0 in stage 3.0 (TID 163) in 122 ms on 192.168.1.9 (executor 2) (161/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 162.0 in stage 3.0 (TID 166, 192.168.1.9, executor 1, partition 162, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 160.0 in stage 3.0 (TID 164) in 124 ms on 192.168.1.9 (executor 1) (162/200)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 161.0 in stage 3.0 (TID 165) in 118 ms on 192.168.1.9 (executor 2) (163/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 163.0 in stage 3.0 (TID 167, 192.168.1.9, executor 2, partition 163, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 164.0 in stage 3.0 (TID 168, 192.168.1.9, executor 1, partition 164, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 162.0 in stage 3.0 (TID 166) in 187 ms on 192.168.1.9 (executor 1) (164/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 165.0 in stage 3.0 (TID 169, 192.168.1.9, executor 2, partition 165, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 163.0 in stage 3.0 (TID 167) in 190 ms on 192.168.1.9 (executor 2) (165/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 166.0 in stage 3.0 (TID 170, 192.168.1.9, executor 1, partition 166, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 164.0 in stage 3.0 (TID 168) in 161 ms on 192.168.1.9 (executor 1) (166/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 167.0 in stage 3.0 (TID 171, 192.168.1.9, executor 2, partition 167, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 165.0 in stage 3.0 (TID 169) in 155 ms on 192.168.1.9 (executor 2) (167/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 168.0 in stage 3.0 (TID 172, 192.168.1.9, executor 1, partition 168, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 166.0 in stage 3.0 (TID 170) in 128 ms on 192.168.1.9 (executor 1) (168/200)
+20/12/05 13:31:44 INFO TaskSetManager: Starting task 169.0 in stage 3.0 (TID 173, 192.168.1.9, executor 2, partition 169, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:44 INFO TaskSetManager: Finished task 167.0 in stage 3.0 (TID 171) in 125 ms on 192.168.1.9 (executor 2) (169/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 170.0 in stage 3.0 (TID 174, 192.168.1.9, executor 2, partition 170, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 169.0 in stage 3.0 (TID 173) in 121 ms on 192.168.1.9 (executor 2) (170/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 171.0 in stage 3.0 (TID 175, 192.168.1.9, executor 1, partition 171, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 168.0 in stage 3.0 (TID 172) in 128 ms on 192.168.1.9 (executor 1) (171/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 172.0 in stage 3.0 (TID 176, 192.168.1.9, executor 1, partition 172, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 171.0 in stage 3.0 (TID 175) in 122 ms on 192.168.1.9 (executor 1) (172/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 173.0 in stage 3.0 (TID 177, 192.168.1.9, executor 2, partition 173, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 170.0 in stage 3.0 (TID 174) in 144 ms on 192.168.1.9 (executor 2) (173/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 175.0 in stage 3.0 (TID 178, 192.168.1.9, executor 1, partition 175, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 172.0 in stage 3.0 (TID 176) in 142 ms on 192.168.1.9 (executor 1) (174/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 176.0 in stage 3.0 (TID 179, 192.168.1.9, executor 2, partition 176, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 173.0 in stage 3.0 (TID 177) in 141 ms on 192.168.1.9 (executor 2) (175/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 177.0 in stage 3.0 (TID 180, 192.168.1.9, executor 1, partition 177, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 175.0 in stage 3.0 (TID 178) in 152 ms on 192.168.1.9 (executor 1) (176/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 178.0 in stage 3.0 (TID 181, 192.168.1.9, executor 2, partition 178, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 176.0 in stage 3.0 (TID 179) in 147 ms on 192.168.1.9 (executor 2) (177/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 179.0 in stage 3.0 (TID 182, 192.168.1.9, executor 1, partition 179, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 177.0 in stage 3.0 (TID 180) in 121 ms on 192.168.1.9 (executor 1) (178/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 180.0 in stage 3.0 (TID 183, 192.168.1.9, executor 2, partition 180, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 178.0 in stage 3.0 (TID 181) in 118 ms on 192.168.1.9 (executor 2) (179/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 181.0 in stage 3.0 (TID 184, 192.168.1.9, executor 1, partition 181, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 179.0 in stage 3.0 (TID 182) in 123 ms on 192.168.1.9 (executor 1) (180/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 182.0 in stage 3.0 (TID 185, 192.168.1.9, executor 2, partition 182, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 180.0 in stage 3.0 (TID 183) in 133 ms on 192.168.1.9 (executor 2) (181/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 183.0 in stage 3.0 (TID 186, 192.168.1.9, executor 1, partition 183, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 181.0 in stage 3.0 (TID 184) in 176 ms on 192.168.1.9 (executor 1) (182/200)
+20/12/05 13:31:45 INFO TaskSetManager: Starting task 184.0 in stage 3.0 (TID 187, 192.168.1.9, executor 2, partition 184, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:45 INFO TaskSetManager: Finished task 182.0 in stage 3.0 (TID 185) in 171 ms on 192.168.1.9 (executor 2) (183/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 185.0 in stage 3.0 (TID 188, 192.168.1.9, executor 1, partition 185, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 183.0 in stage 3.0 (TID 186) in 126 ms on 192.168.1.9 (executor 1) (184/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 186.0 in stage 3.0 (TID 189, 192.168.1.9, executor 2, partition 186, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 184.0 in stage 3.0 (TID 187) in 117 ms on 192.168.1.9 (executor 2) (185/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 187.0 in stage 3.0 (TID 190, 192.168.1.9, executor 2, partition 187, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 186.0 in stage 3.0 (TID 189) in 114 ms on 192.168.1.9 (executor 2) (186/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 188.0 in stage 3.0 (TID 191, 192.168.1.9, executor 1, partition 188, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 185.0 in stage 3.0 (TID 188) in 120 ms on 192.168.1.9 (executor 1) (187/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 189.0 in stage 3.0 (TID 192, 192.168.1.9, executor 2, partition 189, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 187.0 in stage 3.0 (TID 190) in 117 ms on 192.168.1.9 (executor 2) (188/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 190.0 in stage 3.0 (TID 193, 192.168.1.9, executor 1, partition 190, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 188.0 in stage 3.0 (TID 191) in 124 ms on 192.168.1.9 (executor 1) (189/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 191.0 in stage 3.0 (TID 194, 192.168.1.9, executor 2, partition 191, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 189.0 in stage 3.0 (TID 192) in 159 ms on 192.168.1.9 (executor 2) (190/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 192.0 in stage 3.0 (TID 195, 192.168.1.9, executor 1, partition 192, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 190.0 in stage 3.0 (TID 193) in 163 ms on 192.168.1.9 (executor 1) (191/200)
+20/12/05 13:31:46 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 192.168.1.9:33655 in memory (size: 11.6 KiB, free: 5.8 GiB)
+20/12/05 13:31:46 INFO BlockManagerInfo: Removed broadcast_4_piece0 on 192.168.1.9:37615 in memory (size: 11.6 KiB, free: 912.1 MiB)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 193.0 in stage 3.0 (TID 196, 192.168.1.9, executor 2, partition 193, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 191.0 in stage 3.0 (TID 194) in 172 ms on 192.168.1.9 (executor 2) (192/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 194.0 in stage 3.0 (TID 197, 192.168.1.9, executor 1, partition 194, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 192.0 in stage 3.0 (TID 195) in 142 ms on 192.168.1.9 (executor 1) (193/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 195.0 in stage 3.0 (TID 198, 192.168.1.9, executor 2, partition 195, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 193.0 in stage 3.0 (TID 196) in 120 ms on 192.168.1.9 (executor 2) (194/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 196.0 in stage 3.0 (TID 199, 192.168.1.9, executor 1, partition 196, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 194.0 in stage 3.0 (TID 197) in 141 ms on 192.168.1.9 (executor 1) (195/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 197.0 in stage 3.0 (TID 200, 192.168.1.9, executor 2, partition 197, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 195.0 in stage 3.0 (TID 198) in 182 ms on 192.168.1.9 (executor 2) (196/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 198.0 in stage 3.0 (TID 201, 192.168.1.9, executor 1, partition 198, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 196.0 in stage 3.0 (TID 199) in 168 ms on 192.168.1.9 (executor 1) (197/200)
+20/12/05 13:31:46 INFO TaskSetManager: Starting task 199.0 in stage 3.0 (TID 202, 192.168.1.9, executor 2, partition 199, PROCESS_LOCAL, 7336 bytes)
+20/12/05 13:31:46 INFO TaskSetManager: Finished task 197.0 in stage 3.0 (TID 200) in 161 ms on 192.168.1.9 (executor 2) (198/200)
+20/12/05 13:31:47 INFO TaskSetManager: Finished task 198.0 in stage 3.0 (TID 201) in 165 ms on 192.168.1.9 (executor 1) (199/200)
+20/12/05 13:31:47 INFO TaskSetManager: Finished task 199.0 in stage 3.0 (TID 202) in 139 ms on 192.168.1.9 (executor 2) (200/200)
+20/12/05 13:31:47 INFO YarnScheduler: Removed TaskSet 3.0, whose tasks have all completed, from pool 
+20/12/05 13:31:47 INFO DAGScheduler: ResultStage 3 (toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22) finished in 104.658 s
+20/12/05 13:31:47 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+20/12/05 13:31:47 INFO YarnScheduler: Killing all running tasks in stage 3: Stage finished
+20/12/05 13:31:47 INFO DAGScheduler: Job 1 finished: toPandas at /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/userFiles-5412ce71-1731-4ed0-8ac0-5c02acbd71c5/darima.zip/darima/dlsa.py:22, took 105.993902 s
+20/12/05 13:31:47 INFO FileSourceStrategy: Pruning directories with: 
+20/12/05 13:31:47 INFO FileSourceStrategy: Pushed Filters: 
+20/12/05 13:31:47 INFO FileSourceStrategy: Post-Scan Filters: AtLeastNNulls(n, t#1,traffic_volume#0)
+20/12/05 13:31:47 INFO FileSourceStrategy: Output Data Schema: struct<traffic_volume: double, t: string>
+20/12/05 13:31:47 INFO CodeGenerator: Code generated in 14.27141 ms
+20/12/05 13:31:47 INFO MemoryStore: Block broadcast_6 stored as values in memory (estimated size 177.4 KiB, free 5.8 GiB)
+20/12/05 13:31:47 INFO MemoryStore: Block broadcast_6_piece0 stored as bytes in memory (estimated size 28.7 KiB, free 5.8 GiB)
+20/12/05 13:31:47 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 192.168.1.9:33655 (size: 28.7 KiB, free: 5.8 GiB)
+20/12/05 13:31:47 INFO SparkContext: Created broadcast 6 from toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203
+20/12/05 13:31:47 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+20/12/05 13:31:47 INFO SparkContext: Starting job: toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203
+20/12/05 13:31:47 INFO DAGScheduler: Got job 2 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203) with 1 output partitions
+20/12/05 13:31:47 INFO DAGScheduler: Final stage: ResultStage 4 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203)
+20/12/05 13:31:47 INFO DAGScheduler: Parents of final stage: List()
+20/12/05 13:31:47 INFO DAGScheduler: Missing parents: List()
+20/12/05 13:31:47 INFO DAGScheduler: Submitting ResultStage 4 (MapPartitionsRDD[25] at toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203), which has no missing parents
+20/12/05 13:31:47 INFO MemoryStore: Block broadcast_7 stored as values in memory (estimated size 21.7 KiB, free 5.8 GiB)
+20/12/05 13:31:47 INFO MemoryStore: Block broadcast_7_piece0 stored as bytes in memory (estimated size 10.4 KiB, free 5.8 GiB)
+20/12/05 13:31:47 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 192.168.1.9:33655 (size: 10.4 KiB, free: 5.8 GiB)
+20/12/05 13:31:47 INFO SparkContext: Created broadcast 7 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:31:47 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 4 (MapPartitionsRDD[25] at toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203) (first 15 tasks are for partitions Vector(0))
+20/12/05 13:31:47 INFO YarnScheduler: Adding task set 4.0 with 1 tasks
+20/12/05 13:31:47 INFO TaskSetManager: Starting task 0.0 in stage 4.0 (TID 203, 192.168.1.9, executor 2, partition 0, NODE_LOCAL, 7790 bytes)
+20/12/05 13:31:47 INFO BlockManagerInfo: Added broadcast_7_piece0 in memory on 192.168.1.9:37615 (size: 10.4 KiB, free: 912.1 MiB)
+20/12/05 13:31:47 INFO BlockManagerInfo: Added broadcast_6_piece0 in memory on 192.168.1.9:37615 (size: 28.7 KiB, free: 912.1 MiB)
+20/12/05 13:31:48 INFO TaskSetManager: Finished task 0.0 in stage 4.0 (TID 203) in 499 ms on 192.168.1.9 (executor 2) (1/1)
+20/12/05 13:31:48 INFO YarnScheduler: Removed TaskSet 4.0, whose tasks have all completed, from pool 
+20/12/05 13:31:48 INFO DAGScheduler: ResultStage 4 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203) finished in 0.509 s
+20/12/05 13:31:48 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+20/12/05 13:31:48 INFO YarnScheduler: Killing all running tasks in stage 4: Stage finished
+20/12/05 13:31:48 INFO DAGScheduler: Job 2 finished: toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:203, took 0.514304 s
+20/12/05 13:31:53 INFO FileSourceStrategy: Pruning directories with: 
+20/12/05 13:31:53 INFO FileSourceStrategy: Pushed Filters: 
+20/12/05 13:31:53 INFO FileSourceStrategy: Post-Scan Filters: 
+20/12/05 13:31:53 INFO FileSourceStrategy: Output Data Schema: struct<traffic_volume: double, t: string>
+20/12/05 13:31:53 INFO CodeGenerator: Code generated in 12.278361 ms
+20/12/05 13:31:53 INFO MemoryStore: Block broadcast_8 stored as values in memory (estimated size 177.4 KiB, free 5.8 GiB)
+20/12/05 13:31:53 INFO MemoryStore: Block broadcast_8_piece0 stored as bytes in memory (estimated size 28.7 KiB, free 5.8 GiB)
+20/12/05 13:31:53 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 192.168.1.9:33655 (size: 28.7 KiB, free: 5.8 GiB)
+20/12/05 13:31:53 INFO SparkContext: Created broadcast 8 from toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219
+20/12/05 13:31:53 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+20/12/05 13:31:53 INFO SparkContext: Starting job: toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219
+20/12/05 13:31:53 INFO DAGScheduler: Got job 3 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219) with 1 output partitions
+20/12/05 13:31:53 INFO DAGScheduler: Final stage: ResultStage 5 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219)
+20/12/05 13:31:53 INFO DAGScheduler: Parents of final stage: List()
+20/12/05 13:31:53 INFO DAGScheduler: Missing parents: List()
+20/12/05 13:31:53 INFO DAGScheduler: Submitting ResultStage 5 (MapPartitionsRDD[29] at toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219), which has no missing parents
+20/12/05 13:31:53 INFO MemoryStore: Block broadcast_9 stored as values in memory (estimated size 12.3 KiB, free 5.8 GiB)
+20/12/05 13:31:53 INFO MemoryStore: Block broadcast_9_piece0 stored as bytes in memory (estimated size 6.3 KiB, free 5.8 GiB)
+20/12/05 13:31:53 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 192.168.1.9:33655 (size: 6.3 KiB, free: 5.8 GiB)
+20/12/05 13:31:53 INFO SparkContext: Created broadcast 9 from broadcast at DAGScheduler.scala:1223
+20/12/05 13:31:53 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[29] at toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219) (first 15 tasks are for partitions Vector(0))
+20/12/05 13:31:53 INFO YarnScheduler: Adding task set 5.0 with 1 tasks
+20/12/05 13:31:53 INFO TaskSetManager: Starting task 0.0 in stage 5.0 (TID 204, 192.168.1.9, executor 1, partition 0, NODE_LOCAL, 7789 bytes)
+20/12/05 13:31:53 INFO BlockManagerInfo: Added broadcast_9_piece0 in memory on 192.168.1.9:37677 (size: 6.3 KiB, free: 912.2 MiB)
+20/12/05 13:31:53 INFO BlockManagerInfo: Added broadcast_8_piece0 in memory on 192.168.1.9:37677 (size: 28.7 KiB, free: 912.1 MiB)
+20/12/05 13:31:54 INFO TaskSetManager: Finished task 0.0 in stage 5.0 (TID 204) in 1166 ms on 192.168.1.9 (executor 1) (1/1)
+20/12/05 13:31:54 INFO YarnScheduler: Removed TaskSet 5.0, whose tasks have all completed, from pool 
+20/12/05 13:31:54 INFO DAGScheduler: ResultStage 5 (toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219) finished in 1.179 s
+20/12/05 13:31:54 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+20/12/05 13:31:54 INFO YarnScheduler: Killing all running tasks in stage 5: Stage finished
+20/12/05 13:31:54 INFO DAGScheduler: Job 3 finished: toPandas at /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/run_darima.py:219, took 1.185673 s
+20/12/05 13:31:58 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/05 13:31:58 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4040
+20/12/05 13:31:58 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/05 13:31:58 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/05 13:31:58 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/05 13:31:58 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/05 13:31:58 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/05 13:31:58 INFO MemoryStore: MemoryStore cleared
+20/12/05 13:31:58 INFO BlockManager: BlockManager stopped
+20/12/05 13:31:58 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/05 13:31:58 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/05 13:31:58 INFO SparkContext: Successfully stopped SparkContext
+20/12/05 13:31:58 INFO ShutdownHookManager: Shutdown hook called
+20/12/05 13:31:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-53a480b7-d49c-4a45-84f5-57291968a7ff
+20/12/05 13:31:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7/pyspark-bfdeeedf-03c7-4bc4-819f-455ae0f77f4c
+20/12/05 13:31:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-5be5bbc7-2173-44b1-97a3-9ad28bdba2e7

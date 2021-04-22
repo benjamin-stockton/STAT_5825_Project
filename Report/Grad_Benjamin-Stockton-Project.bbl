@@ -1,0 +1,521 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{das_predictive_2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=31c7227b5e899112e636a02d77c81542}{%
+           family={Das},
+           familyi={D\bibinitperiod},
+           given={Srinjoy},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=316247c93f9ac61484ddbcbbf2b77150}{%
+           family={Politis},
+           familyi={P\bibinitperiod},
+           given={Dimitris\bibnamedelima N.},
+           giveni={D\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{43d78e88addaf104c5200508dc726c22}
+      \strng{fullhash}{43d78e88addaf104c5200508dc726c22}
+      \strng{bibnamehash}{43d78e88addaf104c5200508dc726c22}
+      \strng{authorbibnamehash}{43d78e88addaf104c5200508dc726c22}
+      \strng{authornamehash}{43d78e88addaf104c5200508dc726c22}
+      \strng{authorfullhash}{43d78e88addaf104c5200508dc726c22}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The model-free prediction principle of Politis has been successfully applied to general regression problems, as well as problems involving stationary time series. However, with long time series, for example, annual temperature measurements spanning over 100 years or daily financial returns spanning several years, it may be unrealistic to assume stationarity throughout the span of the dataset. In this article, we show how model-free prediction can be applied to handle time series that are only locally stationary, that is, they can be assumed to be stationary only over short time-windows. Surprisingly, there is little literature on point prediction for general locally stationary time series even in model-based setups, and there is no literature whatsoever on the construction of prediction intervals of locally stationary time series. We attempt to fill this gap here as well. Both one-step-ahead point predictors and prediction intervals are constructed, and the performance of model-free is compared to model-based prediction using models that incorporate a trend and/or heteroscedasticity. Both aspects of the article, model-free and model-based, are novel in the context of time-series that are locally (but not globally) stationary. We also demonstrate the application of our model-based and model-free prediction methods to speleothem climate data which exhibits local stationarity and show that our best model-free point prediction results outperform that obtained with the RAMPFIT algorithm previously used for analysis of this type of data. Supplementary materials for this article are available online.}
+      \field{issn}{0162-1459, 1537-274X}
+      \field{journaltitle}{Journal of the American Statistical Association}
+      \field{month}{2}
+      \field{title}{Predictive {Inference} for {Locally} {Stationary} {Time} {Series} {With} an {Application} to {Climate} {Data}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/01621459.2019.1708368
+      \endverb
+      \verb{file}
+      \verb Das and Politis - 2020 - Predictive Inference for Locally Stationary Time S.pdf:/home/bsuconn/Zotero/storage/XX8TIPQ4/Das and Politis - 2020 - Predictive Inference for Locally Stationary Time S.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/01621459.2019.1708368
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/01621459.2019.1708368
+      \endverb
+    \endentry
+    \entry{eglash_broken_2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=656fcfc2cab38c39c3c8f32688287d72}{%
+           family={Eglash},
+           familyi={E\bibinitperiod},
+           given={Ron},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{656fcfc2cab38c39c3c8f32688287d72}
+      \strng{fullhash}{656fcfc2cab38c39c3c8f32688287d72}
+      \strng{bibnamehash}{656fcfc2cab38c39c3c8f32688287d72}
+      \strng{authorbibnamehash}{656fcfc2cab38c39c3c8f32688287d72}
+      \strng{authornamehash}{656fcfc2cab38c39c3c8f32688287d72}
+      \strng{authorfullhash}{656fcfc2cab38c39c3c8f32688287d72}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0040-165X}
+      \field{journaltitle}{Technology and Culture}
+      \field{note}{Publisher: [The Johns Hopkins University Press, Society for the History of Technology]}
+      \field{number}{2}
+      \field{shorttitle}{Broken {Metaphor}}
+      \field{title}{Broken {Metaphor}: {The} {Master}-{Slave} {Analogy} in {Technical} {Literature}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{volume}{48}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{360\bibrangedash 369}
+      \range{pages}{10}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/40061475
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/40061475
+      \endverb
+    \endentry
+    \entry{apache_spark}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d4a5bef067a1f1bba1782027ad219e93}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={Apache\bibnamedelima Software},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d4a5bef067a1f1bba1782027ad219e93}
+      \strng{fullhash}{d4a5bef067a1f1bba1782027ad219e93}
+      \strng{bibnamehash}{d4a5bef067a1f1bba1782027ad219e93}
+      \strng{authorbibnamehash}{d4a5bef067a1f1bba1782027ad219e93}
+      \strng{authornamehash}{d4a5bef067a1f1bba1782027ad219e93}
+      \strng{authorfullhash}{d4a5bef067a1f1bba1782027ad219e93}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Apache {Spark}™ - {Unified} {Analytics} {Engine} for {Big} {Data}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Apache Spark™ - Unified Analytics Engine for Big Data:/home/bsuconn/Zotero/storage/SZN2T5EG/spark.apache.org.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://spark.apache.org/
+      \endverb
+      \verb{url}
+      \verb https://spark.apache.org/
+      \endverb
+    \endentry
+    \entry{hogue_uci_2019}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ee721b691c070c4dde3bc7167b738f4e}{%
+           family={Hogue},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee721b691c070c4dde3bc7167b738f4e}
+      \strng{fullhash}{ee721b691c070c4dde3bc7167b738f4e}
+      \strng{bibnamehash}{ee721b691c070c4dde3bc7167b738f4e}
+      \strng{authorbibnamehash}{ee721b691c070c4dde3bc7167b738f4e}
+      \strng{authornamehash}{ee721b691c070c4dde3bc7167b738f4e}
+      \strng{authorfullhash}{ee721b691c070c4dde3bc7167b738f4e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{7}
+      \field{month}{5}
+      \field{title}{{UCI} {Machine} {Learning} {Repository}}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb UCI Machine Learning Repository\: Metro Interstate Traffic Volume Data Set:/home/bsuconn/Zotero/storage/DJNB8ACB/Metro+Interstate+Traffic+Volume.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume#
+      \endverb
+      \verb{url}
+      \verb https://archive.ics.uci.edu/ml/datasets/Metro+Interstate+Traffic+Volume#
+      \endverb
+      \keyw{Data}
+    \endentry
+    \entry{landau_tech_2020}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b6d825d15dd89f684bda1ab009a65767}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en-us}%
+      }
+      \strng{namehash}{b6d825d15dd89f684bda1ab009a65767}
+      \strng{fullhash}{b6d825d15dd89f684bda1ab009a65767}
+      \strng{bibnamehash}{b6d825d15dd89f684bda1ab009a65767}
+      \strng{authorbibnamehash}{b6d825d15dd89f684bda1ab009a65767}
+      \strng{authornamehash}{b6d825d15dd89f684bda1ab009a65767}
+      \strng{authorfullhash}{b6d825d15dd89f684bda1ab009a65767}
+      \field{sortinit}{L}
+      \field{sortinithash}{dad3efd0836470093a7b4a7bb756eb8c}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Companies and programmers are reexamining how technical terms are used amid Black Lives Matter protests. But some worry the changes are empty symbolism.}
+      \field{issn}{1059-1028}
+      \field{journaltitle}{Wired}
+      \field{month}{7}
+      \field{title}{Tech {Confronts} {Its} {Use} of the {Labels} ‘{Master}’ and ‘{Slave}’}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Snapshot:/home/bsuconn/Zotero/storage/9SF4G8F8/tech-confronts-use-labels-master-slave.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.wired.com/story/tech-confronts-use-labels-master-slave/
+      \endverb
+      \verb{url}
+      \verb https://www.wired.com/story/tech-confronts-use-labels-master-slave/
+      \endverb
+      \keyw{business,computers and software,developers,diversity,github,programming,web}
+    \endentry
+    \entry{roach_camroach87gefcom2017data_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b0afd7ceac5a33de377c3c99e9b76829}{%
+           family={Roach},
+           familyi={R\bibinitperiod},
+           given={Cameron},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \strng{fullhash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \strng{bibnamehash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \strng{authorbibnamehash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \strng{authornamehash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \strng{authorfullhash}{b0afd7ceac5a33de377c3c99e9b76829}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Data for eight zones in New England as used in the 2017 Global Energy Forecasting Competition (GEFCom2017).}
+      \field{month}{3}
+      \field{note}{original-date: 2018-12-13T01:46:20Z}
+      \field{title}{camroach87/gefcom2017data}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/camroach87/gefcom2017data
+      \endverb
+      \verb{url}
+      \verb https://github.com/camroach87/gefcom2017data
+      \endverb
+    \endentry
+    \entry{hyndman_automatic_2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a2a9d4309ae09a1c7260f55f8e504f49}{%
+           family={{Rob J. Hyndman}},
+           familyi={R\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2c5d25f2cd50e73731141ab36fd29216}{%
+           family={{Yeasmin Khandakar}},
+           familyi={Y\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \strng{fullhash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \strng{bibnamehash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \strng{authorbibnamehash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \strng{authornamehash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \strng{authorfullhash}{ccedeb31c7eb7cebd41d2766b0b07254}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Automatic forecasts of large numbers of univariate time series are often needed in business and other contexts. We describe two automatic forecasting algorithms that have been implemented in the forecast package for R. The first is based on innovations state space models that underly exponential smoothing methods. The second is a step-wise algorithm for forecasting with ARIMA models. The algorithms are applicable to both seasonal and non-seasonal data, and are compared and illustrated using four real time series. We also briefly describe some of the other functionality available in the forecast package.}
+      \field{issn}{1548-7660}
+      \field{journaltitle}{Journal of Statistical Software}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Automatic {Time} {Series} {Forecasting}: {The} forecast {Package} for {R}}
+      \field{volume}{27}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.18637/jss.v027.i03
+      \endverb
+      \verb{file}
+      \verb _.pdf:/home/bsuconn/Zotero/storage/4ZDAL9UA/_.pdf:application/pdf
+      \endverb
+    \endentry
+    \entry{shumway_time_2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b85ddf5669a01baf831e55be1d4cefea}{%
+           family={Shumway},
+           familyi={S\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \list{location}{1}{%
+        {Boca Raton, FL, USA}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press, Taylor \& Francis Group}%
+      }
+      \strng{namehash}{b85ddf5669a01baf831e55be1d4cefea}
+      \strng{fullhash}{b85ddf5669a01baf831e55be1d4cefea}
+      \strng{bibnamehash}{b85ddf5669a01baf831e55be1d4cefea}
+      \strng{authorbibnamehash}{b85ddf5669a01baf831e55be1d4cefea}
+      \strng{authornamehash}{b85ddf5669a01baf831e55be1d4cefea}
+      \strng{authorfullhash}{b85ddf5669a01baf831e55be1d4cefea}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stoffer, David S.}
+      \field{edition}{1st}
+      \field{isbn}{978-0-367-22109-6}
+      \field{series}{Texts in {Statistical} {Science}}
+      \field{title}{Time {Series}: {A} {Data} {Analysis} {Approach} {Using} {R}}
+      \field{year}{2019}
+    \endentry
+    \entry{wang_xqnwang_github_2020}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=201ce602c48237b8f58d2607ae3dc96e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{201ce602c48237b8f58d2607ae3dc96e}
+      \strng{fullhash}{201ce602c48237b8f58d2607ae3dc96e}
+      \strng{bibnamehash}{201ce602c48237b8f58d2607ae3dc96e}
+      \strng{authorbibnamehash}{201ce602c48237b8f58d2607ae3dc96e}
+      \strng{authornamehash}{201ce602c48237b8f58d2607ae3dc96e}
+      \strng{authorfullhash}{201ce602c48237b8f58d2607ae3dc96e}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Distributed ARIMA Models. Contribute to xqnwang/darima development by creating an account on GitHub.}
+      \field{month}{9}
+      \field{note}{original-date: 2020-06-30T07:33:48Z}
+      \field{title}{xqnwang/darima}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/xqnwang/darima
+      \endverb
+      \verb{url}
+      \verb https://github.com/xqnwang/darima
+      \endverb
+      \keyw{arima,distributed-computing,spark,time-series-forecasting}
+    \endentry
+    \entry{wang_distributed_2020}{article}{}
+      \name{author}{4}{ul=1}{%
+        {{un=0,uniquepart=base,hash=201ce602c48237b8f58d2607ae3dc96e}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaoqian},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=19cdef69ea6e417b04dbe89b2bca786b}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Yanfei},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f709db8a046ae1d056e75c1f3aad31c}{%
+           family={Hyndman},
+           familyi={H\bibinitperiod},
+           given={Rob\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9c9b7af522197e2b1702e3cc2b7f98db}
+      \strng{fullhash}{148c44b8ed7ed753c374a23c5d157a37}
+      \strng{bibnamehash}{148c44b8ed7ed753c374a23c5d157a37}
+      \strng{authorbibnamehash}{148c44b8ed7ed753c374a23c5d157a37}
+      \strng{authornamehash}{9c9b7af522197e2b1702e3cc2b7f98db}
+      \strng{authorfullhash}{148c44b8ed7ed753c374a23c5d157a37}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Providing forecasts for ultra-long time series plays a vital role in various activities, such as investment decisions, industrial production arrangements, and farm management. This paper develops a novel distributed forecasting framework to tackle challenges associated with forecasting ultra-long time series by utilizing the industry-standard MapReduce framework. The proposed model combination approach facilitates distributed time series forecasting by combining the local estimators of ARIMA (AutoRegressive Integrated Moving Average) models delivered from worker nodes and minimizing a global loss function. In this way, instead of unrealistically assuming the data generating process (DGP) of an ultra-long time series stays invariant, we make assumptions only on the DGP of subseries spanning shorter time periods. We investigate the performance of the proposed distributed ARIMA models on an electricity demand dataset. Compared to ARIMA models, our approach results in significantly improved forecasting accuracy and computational efficiency both in point forecasts and prediction intervals, especially for longer forecast horizons. Moreover, we explore some potential factors that may affect the forecasting performance of our approach.}
+      \field{journaltitle}{arXiv:2007.09577 [stat]}
+      \field{month}{7}
+      \field{note}{arXiv: 2007.09577}
+      \field{title}{Distributed {ARIMA} {Models} for {Ultra}-long {Time} {Series}}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2020}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb arXiv Fulltext PDF:/home/bsuconn/Zotero/storage/T95EPMXN/Wang et al. - 2020 - Distributed ARIMA Models for Ultra-long Time Serie.pdf:application/pdf;arXiv.org Snapshot:/home/bsuconn/Zotero/storage/SE8F293D/Wang et al. - 2020 - Distributed ARIMA Models for Ultra-long Time Serie.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2007.09577
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2007.09577
+      \endverb
+      \keyw{Statistics - Applications,Statistics - Computation}
+    \endentry
+    \entry{zhu_dlsa_2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=4e1935b78bc895b65fcc70088cf96ee3}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Xuening},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89b23cce0bb40099f7b69f6577f665fe}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6bd6aa2231f68049ca00921345dd970}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hansheng},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{757ad5ba5f32939ce81ed3797ca3025d}
+      \strng{fullhash}{6a5f3f1a2984dfb0362e7c320336285e}
+      \strng{bibnamehash}{6a5f3f1a2984dfb0362e7c320336285e}
+      \strng{authorbibnamehash}{6a5f3f1a2984dfb0362e7c320336285e}
+      \strng{authornamehash}{757ad5ba5f32939ce81ed3797ca3025d}
+      \strng{authorfullhash}{6a5f3f1a2984dfb0362e7c320336285e}
+      \field{sortinit}{Z}
+      \field{sortinithash}{8f7b480688e809b50b6f6577b16f3db5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this work, we develop a distributed least squares approximation (DLSA) method that is able to solve a large family of regression problems (e.g., linear regression, logistic regression, and Cox's model) on a distributed system. By approximating the local objective function using a local quadratic form, we are able to obtain a combined estimator by taking a weighted average of local estimators. The resulting estimator is proved to be statistically as efficient as the global estimator. Moreover, it requires only one round of communication. We further conduct shrinkage estimation based on the DLSA estimation using an adaptive Lasso approach. The solution can be easily obtained by using the LARS algorithm on the master node. It is theoretically shown that the resulting estimator possesses the oracle property and is selection consistent by using a newly designed distributed Bayesian information criterion (DBIC). The finite sample performance and the computational efficiency are further illustrated by an extensive numerical study and an airline dataset. The airline dataset is 52 GB in size. The entire methodology has been implemented in Python for a de-facto standard Spark system. The proposed DLSA algorithm on the Spark system takes 26 minutes to obtain a logistic regression estimator, whereas a full likelihood algorithm takes 15 hours to obtain an inferior result.}
+      \field{journaltitle}{arXiv:1908.04904 [cs, stat]}
+      \field{month}{11}
+      \field{note}{arXiv: 1908.04904}
+      \field{title}{Least {Squares} {Approximation} for a {Distributed} {System}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
+      \field{urlyear}{2020}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb arXiv Fulltext PDF:/home/bsuconn/Zotero/storage/2MTAGNJG/Zhu et al. - 2019 - Least Squares Approximation for a Distributed Syst.pdf:application/pdf;arXiv.org Snapshot:/home/bsuconn/Zotero/storage/3FKH4RFJ/1908.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1908.04904
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1908.04904
+      \endverb
+      \keyw{Statistics - Computation,Computer Science - Distributed,Parallel,and Cluster Computing,Computer Science - Machine Learning,Statistics - Machine Learning,Statistics - Methodology}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

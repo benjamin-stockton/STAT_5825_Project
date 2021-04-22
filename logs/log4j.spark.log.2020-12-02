@@ -1,0 +1,1645 @@
+20/12/03 11:55:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 11:55:09 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 11:55:09 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 11:55:09 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 11:55:09 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 11:55:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 11:55:10 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 11:55:10 INFO ResourceUtils: ==============================================================
+20/12/03 11:55:10 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 11:55:10 INFO ResourceUtils: ==============================================================
+20/12/03 11:55:10 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 11:55:10 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 11:55:10 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 11:55:10 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 11:55:10 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 11:55:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 11:55:10 INFO Utils: Successfully started service 'sparkDriver' on port 34215.
+20/12/03 11:55:10 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 11:55:10 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 11:55:10 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 11:55:10 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 11:55:10 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 11:55:10 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-1a9d2441-c3a2-4c40-9b2e-1c61da6e0904
+20/12/03 11:55:10 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 11:55:10 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 11:55:11 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 11:55:11 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 11:55:11 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 11:55:11 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 11:55:13 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:14 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:15 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:16 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:17 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:18 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:19 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:20 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:21 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:22 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:23 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:24 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:25 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:26 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:27 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:28 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:29 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:30 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:31 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:32 INFO Client: Retrying connect to server: 0.0.0.0/0.0.0.0:8032. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+20/12/03 11:55:32 INFO RetryInvocationHandler: java.net.ConnectException: Your endpoint configuration is wrong; For more details see:  http://wiki.apache.org/hadoop/UnsetHostnameOrPort, while invoking ApplicationClientProtocolPBClientImpl.getClusterMetrics over null after 1 failover attempts. Trying to failover after sleeping for 44370ms.
+20/12/03 11:55:35 INFO DiskBlockManager: Shutdown hook called
+20/12/03 11:55:35 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 11:55:35 INFO ShutdownHookManager: Deleting directory /tmp/spark-33318454-263b-4a27-8f4a-10ef5232c0c8
+20/12/03 11:55:35 INFO ShutdownHookManager: Deleting directory /tmp/spark-5b3fc387-5147-471f-a3b5-95d506c2d28b
+20/12/03 11:55:35 INFO ShutdownHookManager: Deleting directory /tmp/spark-5b3fc387-5147-471f-a3b5-95d506c2d28b/userFiles-c16be031-6596-47a3-af0a-acd8758e943b
+20/12/03 12:23:17 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:23:17 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:17 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:17 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:17 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:17 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:17 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:23:17 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:18 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:23:18 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:18 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:23:18 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:18 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:18 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:18 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:18 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:18 INFO Utils: Successfully started service 'sparkDriver' on port 36813.
+20/12/03 12:23:18 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:23:18 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:23:18 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:23:18 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:23:18 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:23:18 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-c59aee1b-fc04-48d0-bd37-7358dba3a8c9
+20/12/03 12:23:18 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:23:18 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:23:19 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:23:19 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:23:19 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:23:19 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:23:20 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:23:20 INFO Configuration: resource-types.xml not found
+20/12/03 12:23:20 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:23:20 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:23:20 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:23:20 INFO Client: Setting up container launch context for our AM
+20/12/03 12:23:20 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:23:20 INFO Client: Preparing resources for our AM container
+20/12/03 12:23:20 WARN Client: Failed to cleanup staging dir hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0005
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.delete(ClientNamenodeProtocolTranslatorPB.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:1606)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:952)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:949)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:959)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDirInternal$1(Client.scala:226)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDir(Client.scala:235)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:209)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 38 more
+20/12/03 12:23:20 ERROR SparkContext: Error initializing SparkContext.
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:2424)
+	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:2400)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1324)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1321)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:1338)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:1313)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:2275)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:674)
+	at org.apache.spark.deploy.yarn.Client.prepareLocalResources(Client.scala:441)
+	at org.apache.spark.deploy.yarn.Client.createContainerLaunchContext(Client.scala:876)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:196)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 42 more
+20/12/03 12:23:20 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:23:20 WARN YarnSchedulerBackend$YarnSchedulerEndpoint: Attempted to request executors before the AM has registered!
+20/12/03 12:23:20 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:23:20 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:23:20 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:23:20 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:23:20 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:23:20 INFO BlockManager: BlockManager stopped
+20/12/03 12:23:20 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:23:20 WARN MetricsSystem: Stopping a MetricsSystem that is not running
+20/12/03 12:23:20 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:23:20 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:23:21 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:23:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-41531356-91d6-4612-a1ce-8b2cc0b56ce0
+20/12/03 12:23:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-ea12a27f-92f1-489a-b2ed-33fce06af0de
+20/12/03 12:23:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:23:23 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:23 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:23 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:23 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:24 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:23:24 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:24 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:23:24 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:24 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:23:24 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:24 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:24 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:24 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:25 INFO Utils: Successfully started service 'sparkDriver' on port 36039.
+20/12/03 12:23:25 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:23:25 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:23:25 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:23:25 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:23:25 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:23:25 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-76c74106-1bba-4f13-8e7c-59a173fef813
+20/12/03 12:23:25 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:23:25 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:23:25 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:23:25 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:23:25 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:23:26 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:23:26 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:23:26 INFO Configuration: resource-types.xml not found
+20/12/03 12:23:26 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:23:26 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:23:26 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:23:26 INFO Client: Setting up container launch context for our AM
+20/12/03 12:23:26 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:23:26 INFO Client: Preparing resources for our AM container
+20/12/03 12:23:26 WARN Client: Failed to cleanup staging dir hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0006
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.delete(ClientNamenodeProtocolTranslatorPB.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:1606)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:952)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:949)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:959)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDirInternal$1(Client.scala:226)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDir(Client.scala:235)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:209)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 38 more
+20/12/03 12:23:26 ERROR SparkContext: Error initializing SparkContext.
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:2424)
+	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:2400)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1324)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1321)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:1338)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:1313)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:2275)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:674)
+	at org.apache.spark.deploy.yarn.Client.prepareLocalResources(Client.scala:441)
+	at org.apache.spark.deploy.yarn.Client.createContainerLaunchContext(Client.scala:876)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:196)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 42 more
+20/12/03 12:23:26 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:23:26 WARN YarnSchedulerBackend$YarnSchedulerEndpoint: Attempted to request executors before the AM has registered!
+20/12/03 12:23:26 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:23:26 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:23:26 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:23:26 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:23:26 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:23:26 INFO BlockManager: BlockManager stopped
+20/12/03 12:23:26 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:23:26 WARN MetricsSystem: Stopping a MetricsSystem that is not running
+20/12/03 12:23:26 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:23:27 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:23:27 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:23:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-07f0427b-eae5-4767-a5e8-c7a7417096a8
+20/12/03 12:23:27 INFO ShutdownHookManager: Deleting directory /tmp/spark-38407cb0-816b-4ee9-8f2e-37dc60383708
+20/12/03 12:23:29 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:23:29 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:29 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:29 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:29 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:29 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:30 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:23:30 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:30 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:23:30 INFO ResourceUtils: ==============================================================
+20/12/03 12:23:30 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:23:30 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:23:30 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:23:30 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:23:30 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:23:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:23:31 INFO Utils: Successfully started service 'sparkDriver' on port 40513.
+20/12/03 12:23:31 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:23:31 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:23:31 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:23:31 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:23:31 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:23:31 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-72590fb4-dc13-4ebb-90fa-216273137b04
+20/12/03 12:23:31 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:23:31 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:23:31 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:23:31 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:23:31 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:23:32 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:23:32 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:23:32 INFO Configuration: resource-types.xml not found
+20/12/03 12:23:32 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:23:32 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:23:32 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:23:32 INFO Client: Setting up container launch context for our AM
+20/12/03 12:23:32 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:23:33 INFO Client: Preparing resources for our AM container
+20/12/03 12:23:33 WARN Client: Failed to cleanup staging dir hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0007
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.delete(ClientNamenodeProtocolTranslatorPB.java:637)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.delete(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.delete(DFSClient.java:1606)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:952)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$19.doCall(DistributedFileSystem.java:949)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.delete(DistributedFileSystem.java:959)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDirInternal$1(Client.scala:226)
+	at org.apache.spark.deploy.yarn.Client.cleanupStagingDir(Client.scala:235)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:209)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 38 more
+20/12/03 12:23:33 ERROR SparkContext: Error initializing SparkContext.
+java.net.ConnectException: Call From pop-os/192.168.1.9 to localhost:9000 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:831)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:755)
+	at org.apache.hadoop.ipc.Client.getRpcResponse(Client.java:1515)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1457)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1367)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:228)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:116)
+	at com.sun.proxy.$Proxy19.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolTranslatorPB.mkdirs(ClientNamenodeProtocolTranslatorPB.java:656)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invokeMethod(RetryInvocationHandler.java:422)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeMethod(RetryInvocationHandler.java:165)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invoke(RetryInvocationHandler.java:157)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler$Call.invokeOnce(RetryInvocationHandler.java:95)
+	at org.apache.hadoop.io.retry.RetryInvocationHandler.invoke(RetryInvocationHandler.java:359)
+	at com.sun.proxy.$Proxy20.mkdirs(Unknown Source)
+	at org.apache.hadoop.hdfs.DFSClient.primitiveMkdir(DFSClient.java:2424)
+	at org.apache.hadoop.hdfs.DFSClient.mkdirs(DFSClient.java:2400)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1324)
+	at org.apache.hadoop.hdfs.DistributedFileSystem$27.doCall(DistributedFileSystem.java:1321)
+	at org.apache.hadoop.fs.FileSystemLinkResolver.resolve(FileSystemLinkResolver.java:81)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirsInternal(DistributedFileSystem.java:1338)
+	at org.apache.hadoop.hdfs.DistributedFileSystem.mkdirs(DistributedFileSystem.java:1313)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:2275)
+	at org.apache.hadoop.fs.FileSystem.mkdirs(FileSystem.java:674)
+	at org.apache.spark.deploy.yarn.Client.prepareLocalResources(Client.scala:441)
+	at org.apache.spark.deploy.yarn.Client.createContainerLaunchContext(Client.scala:876)
+	at org.apache.spark.deploy.yarn.Client.submitApplication(Client.scala:196)
+	at org.apache.spark.scheduler.cluster.YarnClientSchedulerBackend.start(YarnClientSchedulerBackend.scala:60)
+	at org.apache.spark.scheduler.TaskSchedulerImpl.start(TaskSchedulerImpl.scala:201)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:555)
+	at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+	at py4j.Gateway.invoke(Gateway.java:238)
+	at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+	at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+	at py4j.GatewayConnection.run(GatewayConnection.java:238)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:779)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:531)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:690)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:794)
+	at org.apache.hadoop.ipc.Client$Connection.access$3700(Client.java:411)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1572)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1403)
+	... 42 more
+20/12/03 12:23:33 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:23:33 WARN YarnSchedulerBackend$YarnSchedulerEndpoint: Attempted to request executors before the AM has registered!
+20/12/03 12:23:33 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:23:33 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:23:33 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:23:33 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:23:33 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:23:33 INFO BlockManager: BlockManager stopped
+20/12/03 12:23:33 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:23:33 WARN MetricsSystem: Stopping a MetricsSystem that is not running
+20/12/03 12:23:33 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:23:33 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:23:33 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:23:33 INFO ShutdownHookManager: Deleting directory /tmp/spark-3cb0be74-33f1-42a7-9ab8-1acf5b5f65a0
+20/12/03 12:23:33 INFO ShutdownHookManager: Deleting directory /tmp/spark-2facabbb-687f-49a0-9428-ed5d259d8d40
+20/12/03 12:26:01 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:26:01 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:01 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:01 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:01 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:01 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:01 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:26:01 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:01 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:26:01 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:01 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:26:01 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:01 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:01 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:01 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:01 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:02 INFO Utils: Successfully started service 'sparkDriver' on port 38447.
+20/12/03 12:26:02 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:26:02 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:26:02 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:26:02 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:26:02 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:26:02 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-6ef05240-7308-440d-99a7-6a60a791bc16
+20/12/03 12:26:02 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:26:02 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:26:02 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:26:02 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:26:02 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:26:03 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:26:03 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:26:04 INFO Configuration: resource-types.xml not found
+20/12/03 12:26:04 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:26:04 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:26:04 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:26:04 INFO Client: Setting up container launch context for our AM
+20/12/03 12:26:04 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:26:04 INFO Client: Preparing resources for our AM container
+20/12/03 12:26:04 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:26:06 INFO Client: Uploading resource file:/tmp/spark-a3e5feec-1b8a-4c45-9620-ed2d10d4fc51/__spark_libs__5204383281362946741.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0008/__spark_libs__5204383281362946741.zip
+20/12/03 12:26:07 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0008/pyspark.zip
+20/12/03 12:26:07 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0008/py4j-0.10.9-src.zip
+20/12/03 12:26:08 INFO Client: Uploading resource file:/tmp/spark-a3e5feec-1b8a-4c45-9620-ed2d10d4fc51/__spark_conf__6866826391159554492.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0008/__spark_conf__.zip
+20/12/03 12:26:08 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:08 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:08 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:08 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:08 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:08 INFO Client: Submitting application application_1607015337794_0008 to ResourceManager
+20/12/03 12:26:08 INFO YarnClientImpl: Submitted application application_1607015337794_0008
+20/12/03 12:26:09 INFO Client: Application report for application_1607015337794_0008 (state: ACCEPTED)
+20/12/03 12:26:09 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016368206
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0008/
+	 user: bsuconn
+20/12/03 12:26:10 INFO Client: Application report for application_1607015337794_0008 (state: ACCEPTED)
+20/12/03 12:26:11 INFO Client: Application report for application_1607015337794_0008 (state: ACCEPTED)
+20/12/03 12:26:12 INFO Client: Application report for application_1607015337794_0008 (state: ACCEPTED)
+20/12/03 12:26:13 INFO Client: Application report for application_1607015337794_0008 (state: ACCEPTED)
+20/12/03 12:26:14 INFO Client: Application report for application_1607015337794_0008 (state: RUNNING)
+20/12/03 12:26:14 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016368206
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0008/
+	 user: bsuconn
+20/12/03 12:26:14 INFO YarnClientSchedulerBackend: Application application_1607015337794_0008 has started running.
+20/12/03 12:26:14 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 38963.
+20/12/03 12:26:14 INFO NettyBlockTransferService: Server created on 192.168.1.9:38963
+20/12/03 12:26:14 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:26:14 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 38963, None)
+20/12/03 12:26:14 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:38963 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 38963, None)
+20/12/03 12:26:14 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 38963, None)
+20/12/03 12:26:14 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 38963, None)
+20/12/03 12:26:14 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0008), /proxy/application_1607015337794_0008
+20/12/03 12:26:15 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:26:19 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:26:19 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:51708) with ID 1
+20/12/03 12:26:19 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 12:26:20 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:46797 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 46797, None)
+20/12/03 12:26:20 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:26:20 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:26:20 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:26:20 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:20 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:20 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:20 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:20 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:21 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:26:21 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:26:21 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:26:21 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:26:21 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:26:21 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:26:21 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:26:21 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:26:21 INFO BlockManager: BlockManager stopped
+20/12/03 12:26:21 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:26:21 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:26:21 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:26:21 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:26:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-a3e5feec-1b8a-4c45-9620-ed2d10d4fc51
+20/12/03 12:26:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-f6f56abd-5869-4738-b5cf-717bc81b5663
+20/12/03 12:26:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-a3e5feec-1b8a-4c45-9620-ed2d10d4fc51/pyspark-0c8b44ea-6d0c-4d33-928b-c214ac14e8b4
+20/12/03 12:26:23 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:26:23 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:23 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:23 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:23 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:23 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:24 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:26:24 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:24 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:26:24 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:24 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:26:24 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:24 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:24 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:24 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:24 INFO Utils: Successfully started service 'sparkDriver' on port 39795.
+20/12/03 12:26:25 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:26:25 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:26:25 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:26:25 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:26:25 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:26:25 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-c2e75f8c-6349-49b6-ba48-b44231f12e03
+20/12/03 12:26:25 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:26:25 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:26:25 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:26:25 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:26:25 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:26:26 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:26:26 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:26:26 INFO Configuration: resource-types.xml not found
+20/12/03 12:26:26 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:26:26 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:26:26 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:26:26 INFO Client: Setting up container launch context for our AM
+20/12/03 12:26:26 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:26:26 INFO Client: Preparing resources for our AM container
+20/12/03 12:26:26 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:26:28 INFO Client: Uploading resource file:/tmp/spark-80e5fa86-934a-4b1d-8ff8-8af2819df1fc/__spark_libs__12627142690473954381.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0009/__spark_libs__12627142690473954381.zip
+20/12/03 12:26:29 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0009/pyspark.zip
+20/12/03 12:26:29 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0009/py4j-0.10.9-src.zip
+20/12/03 12:26:30 INFO Client: Uploading resource file:/tmp/spark-80e5fa86-934a-4b1d-8ff8-8af2819df1fc/__spark_conf__16947737106317791416.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0009/__spark_conf__.zip
+20/12/03 12:26:30 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:30 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:30 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:30 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:30 INFO Client: Submitting application application_1607015337794_0009 to ResourceManager
+20/12/03 12:26:30 INFO YarnClientImpl: Submitted application application_1607015337794_0009
+20/12/03 12:26:31 INFO Client: Application report for application_1607015337794_0009 (state: ACCEPTED)
+20/12/03 12:26:31 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016390223
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0009/
+	 user: bsuconn
+20/12/03 12:26:32 INFO Client: Application report for application_1607015337794_0009 (state: ACCEPTED)
+20/12/03 12:26:33 INFO Client: Application report for application_1607015337794_0009 (state: ACCEPTED)
+20/12/03 12:26:34 INFO Client: Application report for application_1607015337794_0009 (state: ACCEPTED)
+20/12/03 12:26:35 INFO Client: Application report for application_1607015337794_0009 (state: ACCEPTED)
+20/12/03 12:26:35 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0009), /proxy/application_1607015337794_0009
+20/12/03 12:26:36 INFO Client: Application report for application_1607015337794_0009 (state: RUNNING)
+20/12/03 12:26:36 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016390223
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0009/
+	 user: bsuconn
+20/12/03 12:26:36 INFO YarnClientSchedulerBackend: Application application_1607015337794_0009 has started running.
+20/12/03 12:26:36 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35897.
+20/12/03 12:26:36 INFO NettyBlockTransferService: Server created on 192.168.1.9:35897
+20/12/03 12:26:36 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:26:36 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 35897, None)
+20/12/03 12:26:36 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:35897 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 35897, None)
+20/12/03 12:26:36 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 35897, None)
+20/12/03 12:26:36 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 35897, None)
+20/12/03 12:26:36 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:36 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:26:41 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:26:42 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:55516) with ID 1
+20/12/03 12:26:43 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:33917 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 33917, None)
+20/12/03 12:26:44 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:55520) with ID 2
+20/12/03 12:26:44 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 12:26:44 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:45743 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 45743, None)
+20/12/03 12:26:44 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:26:44 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:26:44 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:26:44 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:44 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:44 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:44 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:44 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:26:45 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:26:45 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:26:45 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:26:45 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:26:45 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:26:45 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:26:45 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:26:45 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:26:45 INFO BlockManager: BlockManager stopped
+20/12/03 12:26:45 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:26:45 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:26:45 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:26:45 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:26:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-80e5fa86-934a-4b1d-8ff8-8af2819df1fc
+20/12/03 12:26:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-80e5fa86-934a-4b1d-8ff8-8af2819df1fc/pyspark-c273d6c7-e40b-47e9-9315-707a004f8b85
+20/12/03 12:26:45 INFO ShutdownHookManager: Deleting directory /tmp/spark-822f749c-3965-4a5e-a55e-78f378f7dd40
+20/12/03 12:26:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:26:48 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:48 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:48 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:48 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:48 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:26:48 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:48 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:26:48 INFO ResourceUtils: ==============================================================
+20/12/03 12:26:48 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:26:49 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:49 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:49 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:49 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:49 INFO Utils: Successfully started service 'sparkDriver' on port 37215.
+20/12/03 12:26:49 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:26:49 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:26:49 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:26:49 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:26:49 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:26:49 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-45c4981b-22e6-4e3f-8611-29292492e908
+20/12/03 12:26:49 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:26:49 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:26:49 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:26:49 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:26:50 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:26:50 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:26:50 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:26:51 INFO Configuration: resource-types.xml not found
+20/12/03 12:26:51 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:26:51 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:26:51 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:26:51 INFO Client: Setting up container launch context for our AM
+20/12/03 12:26:51 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:26:51 INFO Client: Preparing resources for our AM container
+20/12/03 12:26:51 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:26:53 INFO Client: Uploading resource file:/tmp/spark-c64ce07d-9fdf-413a-ad92-986de246c2af/__spark_libs__8931110611857281890.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0010/__spark_libs__8931110611857281890.zip
+20/12/03 12:26:54 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0010/pyspark.zip
+20/12/03 12:26:54 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0010/py4j-0.10.9-src.zip
+20/12/03 12:26:54 INFO Client: Uploading resource file:/tmp/spark-c64ce07d-9fdf-413a-ad92-986de246c2af/__spark_conf__14186664617014338539.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0010/__spark_conf__.zip
+20/12/03 12:26:54 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:26:54 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:26:54 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:26:54 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:26:54 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:26:54 INFO Client: Submitting application application_1607015337794_0010 to ResourceManager
+20/12/03 12:26:54 INFO YarnClientImpl: Submitted application application_1607015337794_0010
+20/12/03 12:26:55 INFO Client: Application report for application_1607015337794_0010 (state: ACCEPTED)
+20/12/03 12:26:55 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016414501
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0010/
+	 user: bsuconn
+20/12/03 12:26:56 INFO Client: Application report for application_1607015337794_0010 (state: ACCEPTED)
+20/12/03 12:26:57 INFO Client: Application report for application_1607015337794_0010 (state: ACCEPTED)
+20/12/03 12:26:58 INFO Client: Application report for application_1607015337794_0010 (state: ACCEPTED)
+20/12/03 12:26:59 INFO Client: Application report for application_1607015337794_0010 (state: ACCEPTED)
+20/12/03 12:26:59 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0010), /proxy/application_1607015337794_0010
+20/12/03 12:27:00 INFO Client: Application report for application_1607015337794_0010 (state: RUNNING)
+20/12/03 12:27:00 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016414501
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0010/
+	 user: bsuconn
+20/12/03 12:27:00 INFO YarnClientSchedulerBackend: Application application_1607015337794_0010 has started running.
+20/12/03 12:27:00 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 39605.
+20/12/03 12:27:00 INFO NettyBlockTransferService: Server created on 192.168.1.9:39605
+20/12/03 12:27:00 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:27:00 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 39605, None)
+20/12/03 12:27:00 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:39605 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 39605, None)
+20/12/03 12:27:00 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 39605, None)
+20/12/03 12:27:00 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 39605, None)
+20/12/03 12:27:00 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:01 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:27:06 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:27:07 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:55656) with ID 1
+20/12/03 12:27:07 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:41991 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 41991, None)
+20/12/03 12:27:08 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:55660) with ID 2
+20/12/03 12:27:08 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:38521 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 38521, None)
+20/12/03 12:27:20 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000000000(ns)
+20/12/03 12:27:20 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:27:20 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:27:20 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:27:20 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:20 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:20 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:20 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:20 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:27:21 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:27:21 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:27:21 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:27:21 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:27:21 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:27:21 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:27:21 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:27:21 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:27:21 INFO BlockManager: BlockManager stopped
+20/12/03 12:27:21 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:27:21 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:27:21 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:27:21 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:27:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-c64ce07d-9fdf-413a-ad92-986de246c2af
+20/12/03 12:27:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-c64ce07d-9fdf-413a-ad92-986de246c2af/pyspark-a5af34ff-76a0-490b-8b1d-6325d0612f50
+20/12/03 12:27:21 INFO ShutdownHookManager: Deleting directory /tmp/spark-ebe4d916-12ab-48ca-9815-f1983319d26f
+20/12/03 12:31:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:31:49 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:31:49 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:31:49 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:31:49 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:31:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:31:50 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:31:50 INFO ResourceUtils: ==============================================================
+20/12/03 12:31:50 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:31:50 INFO ResourceUtils: ==============================================================
+20/12/03 12:31:50 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:31:50 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:31:50 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:31:50 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:31:50 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:31:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:31:51 INFO Utils: Successfully started service 'sparkDriver' on port 44733.
+20/12/03 12:31:51 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:31:51 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:31:51 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:31:51 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:31:51 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:31:51 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-0bd2f051-8c1d-4b8e-9d8a-6889cc594838
+20/12/03 12:31:51 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:31:51 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:31:51 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:31:51 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:31:52 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:31:52 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:31:53 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:31:54 INFO Configuration: resource-types.xml not found
+20/12/03 12:31:54 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:31:54 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:31:54 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:31:54 INFO Client: Setting up container launch context for our AM
+20/12/03 12:31:54 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:31:54 INFO Client: Preparing resources for our AM container
+20/12/03 12:31:54 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:31:56 INFO Client: Uploading resource file:/tmp/spark-fdefe08f-ab06-450d-97d8-fd39b4a9f64d/__spark_libs__11451305643505642228.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0011/__spark_libs__11451305643505642228.zip
+20/12/03 12:31:58 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0011/pyspark.zip
+20/12/03 12:31:58 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0011/py4j-0.10.9-src.zip
+20/12/03 12:31:58 INFO Client: Uploading resource file:/tmp/spark-fdefe08f-ab06-450d-97d8-fd39b4a9f64d/__spark_conf__9081582803841589596.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0011/__spark_conf__.zip
+20/12/03 12:31:58 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:31:58 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:31:58 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:31:58 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:31:58 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:31:58 INFO Client: Submitting application application_1607015337794_0011 to ResourceManager
+20/12/03 12:31:59 INFO YarnClientImpl: Submitted application application_1607015337794_0011
+20/12/03 12:32:00 INFO Client: Application report for application_1607015337794_0011 (state: ACCEPTED)
+20/12/03 12:32:00 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016718985
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0011/
+	 user: bsuconn
+20/12/03 12:32:01 INFO Client: Application report for application_1607015337794_0011 (state: ACCEPTED)
+20/12/03 12:32:02 INFO Client: Application report for application_1607015337794_0011 (state: ACCEPTED)
+20/12/03 12:32:03 INFO Client: Application report for application_1607015337794_0011 (state: ACCEPTED)
+20/12/03 12:32:04 INFO Client: Application report for application_1607015337794_0011 (state: ACCEPTED)
+20/12/03 12:32:04 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0011), /proxy/application_1607015337794_0011
+20/12/03 12:32:05 INFO Client: Application report for application_1607015337794_0011 (state: RUNNING)
+20/12/03 12:32:05 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016718985
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0011/
+	 user: bsuconn
+20/12/03 12:32:05 INFO YarnClientSchedulerBackend: Application application_1607015337794_0011 has started running.
+20/12/03 12:32:05 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40731.
+20/12/03 12:32:05 INFO NettyBlockTransferService: Server created on 192.168.1.9:40731
+20/12/03 12:32:05 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:32:05 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 40731, None)
+20/12/03 12:32:05 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:40731 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 40731, None)
+20/12/03 12:32:05 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 40731, None)
+20/12/03 12:32:05 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 40731, None)
+20/12/03 12:32:05 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:06 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:32:10 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:32:11 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:41626) with ID 1
+20/12/03 12:32:11 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 12:32:12 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:45569 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 45569, None)
+20/12/03 12:32:12 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:32:12 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:32:12 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:32:12 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:12 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:12 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:12 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:12 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:13 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:44733/files/darima.zip with timestamp 1607016733091
+20/12/03 12:32:13 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-fdefe08f-ab06-450d-97d8-fd39b4a9f64d/userFiles-686dedfe-38c7-40e6-97fe-9f05719d3f64/darima.zip
+20/12/03 12:32:15 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:32:15 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:32:15 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:32:15 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:32:15 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:32:15 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:32:16 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:32:16 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:32:16 INFO BlockManager: BlockManager stopped
+20/12/03 12:32:16 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:32:16 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:32:16 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:32:16 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:32:16 INFO ShutdownHookManager: Deleting directory /tmp/spark-028c88c9-2e0d-4886-872e-2e652827e77a
+20/12/03 12:32:16 INFO ShutdownHookManager: Deleting directory /tmp/spark-fdefe08f-ab06-450d-97d8-fd39b4a9f64d
+20/12/03 12:32:16 INFO ShutdownHookManager: Deleting directory /tmp/spark-fdefe08f-ab06-450d-97d8-fd39b4a9f64d/pyspark-6e48b7a1-371b-4ede-8e0f-c7f79480d7d5
+20/12/03 12:32:19 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:32:19 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:32:19 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:32:19 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:32:19 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:32:19 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:32:20 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:32:20 INFO ResourceUtils: ==============================================================
+20/12/03 12:32:20 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:32:20 INFO ResourceUtils: ==============================================================
+20/12/03 12:32:20 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:32:20 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:32:20 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:32:20 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:32:20 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:32:20 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:32:20 INFO Utils: Successfully started service 'sparkDriver' on port 44829.
+20/12/03 12:32:20 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:32:21 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:32:21 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:32:21 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:32:21 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:32:21 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-5167cc7e-e369-45f1-8b51-49fbb77cb3a6
+20/12/03 12:32:21 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:32:21 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:32:21 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:32:21 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:32:21 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:32:22 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:32:22 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:32:23 INFO Configuration: resource-types.xml not found
+20/12/03 12:32:23 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:32:23 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:32:23 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:32:23 INFO Client: Setting up container launch context for our AM
+20/12/03 12:32:23 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:32:23 INFO Client: Preparing resources for our AM container
+20/12/03 12:32:23 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:32:25 INFO Client: Uploading resource file:/tmp/spark-5b197433-854d-431e-9cac-8c7acd1ed86e/__spark_libs__9973882917477810540.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0012/__spark_libs__9973882917477810540.zip
+20/12/03 12:32:27 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0012/pyspark.zip
+20/12/03 12:32:27 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0012/py4j-0.10.9-src.zip
+20/12/03 12:32:27 INFO Client: Uploading resource file:/tmp/spark-5b197433-854d-431e-9cac-8c7acd1ed86e/__spark_conf__7982690763789508368.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0012/__spark_conf__.zip
+20/12/03 12:32:27 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:32:27 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:32:27 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:32:27 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:32:27 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:32:27 INFO Client: Submitting application application_1607015337794_0012 to ResourceManager
+20/12/03 12:32:28 INFO YarnClientImpl: Submitted application application_1607015337794_0012
+20/12/03 12:32:29 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:29 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016748009
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0012/
+	 user: bsuconn
+20/12/03 12:32:30 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:31 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:32 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:33 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:34 INFO Client: Application report for application_1607015337794_0012 (state: ACCEPTED)
+20/12/03 12:32:34 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0012), /proxy/application_1607015337794_0012
+20/12/03 12:32:35 INFO Client: Application report for application_1607015337794_0012 (state: RUNNING)
+20/12/03 12:32:35 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016748009
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0012/
+	 user: bsuconn
+20/12/03 12:32:35 INFO YarnClientSchedulerBackend: Application application_1607015337794_0012 has started running.
+20/12/03 12:32:35 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40553.
+20/12/03 12:32:35 INFO NettyBlockTransferService: Server created on 192.168.1.9:40553
+20/12/03 12:32:35 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:32:35 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 40553, None)
+20/12/03 12:32:35 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:40553 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 40553, None)
+20/12/03 12:32:35 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 40553, None)
+20/12/03 12:32:35 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 40553, None)
+20/12/03 12:32:35 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:36 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:32:41 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:32:43 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:44652) with ID 1
+20/12/03 12:32:43 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:44061 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 44061, None)
+20/12/03 12:32:44 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:44656) with ID 2
+20/12/03 12:32:44 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 12:32:45 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:33315 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 33315, None)
+20/12/03 12:32:45 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:32:45 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:32:45 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:32:45 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:45 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:45 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:45 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:45 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:32:46 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:44829/files/darima.zip with timestamp 1607016766066
+20/12/03 12:32:46 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-5b197433-854d-431e-9cac-8c7acd1ed86e/userFiles-052ee7e7-a99c-4696-9e0e-669ed81814c0/darima.zip
+20/12/03 12:32:48 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:32:48 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:32:48 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:32:48 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:32:48 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:32:48 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:32:48 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:32:49 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:32:49 INFO BlockManager: BlockManager stopped
+20/12/03 12:32:49 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:32:49 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:32:49 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:32:49 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:32:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-e254c67e-3621-4d4c-8a6a-8f65dc7ef377
+20/12/03 12:32:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-5b197433-854d-431e-9cac-8c7acd1ed86e/pyspark-7493b042-80a6-413f-945c-1eb6ac03c0f2
+20/12/03 12:32:49 INFO ShutdownHookManager: Deleting directory /tmp/spark-5b197433-854d-431e-9cac-8c7acd1ed86e
+20/12/03 12:32:53 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 12:32:53 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:32:53 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:32:53 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:32:53 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:32:53 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:32:54 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 12:32:54 INFO ResourceUtils: ==============================================================
+20/12/03 12:32:54 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 12:32:54 INFO ResourceUtils: ==============================================================
+20/12/03 12:32:54 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 12:32:54 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:32:54 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:32:54 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:32:54 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:32:54 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:32:54 INFO Utils: Successfully started service 'sparkDriver' on port 41983.
+20/12/03 12:32:55 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 12:32:55 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 12:32:55 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 12:32:55 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 12:32:55 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 12:32:55 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-3ea12cde-1f9f-4c92-9878-4e27631066c6
+20/12/03 12:32:55 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 12:32:55 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 12:32:55 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 12:32:55 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 12:32:55 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 12:32:57 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 12:32:57 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 12:32:58 INFO Configuration: resource-types.xml not found
+20/12/03 12:32:58 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 12:32:58 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 12:32:58 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 12:32:58 INFO Client: Setting up container launch context for our AM
+20/12/03 12:32:58 INFO Client: Setting up the launch environment for our AM container
+20/12/03 12:32:58 INFO Client: Preparing resources for our AM container
+20/12/03 12:32:58 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 12:33:02 INFO Client: Uploading resource file:/tmp/spark-18d6322e-5a52-45db-bb21-6deb39e60a7e/__spark_libs__7467586004947512827.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0013/__spark_libs__7467586004947512827.zip
+20/12/03 12:33:04 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0013/pyspark.zip
+20/12/03 12:33:04 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0013/py4j-0.10.9-src.zip
+20/12/03 12:33:05 INFO Client: Uploading resource file:/tmp/spark-18d6322e-5a52-45db-bb21-6deb39e60a7e/__spark_conf__2529298236492710515.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0013/__spark_conf__.zip
+20/12/03 12:33:05 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 12:33:05 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 12:33:05 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 12:33:05 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 12:33:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 12:33:05 INFO Client: Submitting application application_1607015337794_0013 to ResourceManager
+20/12/03 12:33:05 INFO YarnClientImpl: Submitted application application_1607015337794_0013
+20/12/03 12:33:06 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:06 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016785777
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0013/
+	 user: bsuconn
+20/12/03 12:33:07 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:08 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:09 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:10 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:11 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:12 INFO Client: Application report for application_1607015337794_0013 (state: ACCEPTED)
+20/12/03 12:33:13 INFO Client: Application report for application_1607015337794_0013 (state: RUNNING)
+20/12/03 12:33:13 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607016785777
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0013/
+	 user: bsuconn
+20/12/03 12:33:13 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0013), /proxy/application_1607015337794_0013
+20/12/03 12:33:13 INFO YarnClientSchedulerBackend: Application application_1607015337794_0013 has started running.
+20/12/03 12:33:13 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43161.
+20/12/03 12:33:13 INFO NettyBlockTransferService: Server created on 192.168.1.9:43161
+20/12/03 12:33:13 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 12:33:13 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 43161, None)
+20/12/03 12:33:13 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:43161 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 43161, None)
+20/12/03 12:33:13 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 43161, None)
+20/12/03 12:33:13 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 43161, None)
+20/12/03 12:33:14 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:15 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 12:33:20 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 12:33:22 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:47182) with ID 1
+20/12/03 12:33:22 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:37905 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 37905, None)
+20/12/03 12:33:23 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:47186) with ID 2
+20/12/03 12:33:23 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:34085 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 34085, None)
+20/12/03 12:33:26 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000000000(ns)
+20/12/03 12:33:26 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 12:33:26 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 12:33:26 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 12:33:26 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:26 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:26 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:26 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:26 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 12:33:27 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:41983/files/darima.zip with timestamp 1607016807283
+20/12/03 12:33:27 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-18d6322e-5a52-45db-bb21-6deb39e60a7e/userFiles-dcef74ba-c633-42a9-a11f-47980c47a487/darima.zip
+20/12/03 12:33:29 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 12:33:29 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 12:33:29 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 12:33:29 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 12:33:29 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 12:33:29 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 12:33:29 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 12:33:29 INFO MemoryStore: MemoryStore cleared
+20/12/03 12:33:29 INFO BlockManager: BlockManager stopped
+20/12/03 12:33:29 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 12:33:29 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 12:33:29 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 12:33:29 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 12:33:29 INFO ShutdownHookManager: Deleting directory /tmp/spark-18d6322e-5a52-45db-bb21-6deb39e60a7e/pyspark-67b96406-b676-471b-99a9-3655ca522b6b
+20/12/03 12:33:29 INFO ShutdownHookManager: Deleting directory /tmp/spark-d8b792ff-c7b5-4c58-a598-9d525ec91d81
+20/12/03 12:33:29 INFO ShutdownHookManager: Deleting directory /tmp/spark-18d6322e-5a52-45db-bb21-6deb39e60a7e
+20/12/03 13:27:15 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 13:27:15 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:15 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:15 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:15 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:15 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:16 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 13:27:16 INFO ResourceUtils: ==============================================================
+20/12/03 13:27:16 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 13:27:16 INFO ResourceUtils: ==============================================================
+20/12/03 13:27:16 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 13:27:16 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:16 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:16 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:16 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:16 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:17 INFO Utils: Successfully started service 'sparkDriver' on port 39939.
+20/12/03 13:27:17 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 13:27:17 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 13:27:17 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 13:27:17 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 13:27:17 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 13:27:17 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-aab592ef-490a-436f-92a1-8385241e9cb5
+20/12/03 13:27:17 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 13:27:17 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 13:27:18 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 13:27:18 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 13:27:18 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 13:27:19 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 13:27:19 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 13:27:20 INFO Configuration: resource-types.xml not found
+20/12/03 13:27:20 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 13:27:20 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 13:27:20 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 13:27:20 INFO Client: Setting up container launch context for our AM
+20/12/03 13:27:20 INFO Client: Setting up the launch environment for our AM container
+20/12/03 13:27:20 INFO Client: Preparing resources for our AM container
+20/12/03 13:27:20 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 13:27:22 INFO Client: Uploading resource file:/tmp/spark-15619c26-cbb8-4ecb-8d09-3951aa8c4411/__spark_libs__11616959338881937855.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0014/__spark_libs__11616959338881937855.zip
+20/12/03 13:27:24 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0014/pyspark.zip
+20/12/03 13:27:24 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0014/py4j-0.10.9-src.zip
+20/12/03 13:27:24 INFO Client: Uploading resource file:/tmp/spark-15619c26-cbb8-4ecb-8d09-3951aa8c4411/__spark_conf__7524435162089425626.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0014/__spark_conf__.zip
+20/12/03 13:27:24 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:24 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:24 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:24 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:24 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:24 INFO Client: Submitting application application_1607015337794_0014 to ResourceManager
+20/12/03 13:27:24 INFO YarnClientImpl: Submitted application application_1607015337794_0014
+20/12/03 13:27:25 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:25 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020044853
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0014/
+	 user: bsuconn
+20/12/03 13:27:26 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:27 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:28 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:29 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:30 INFO Client: Application report for application_1607015337794_0014 (state: ACCEPTED)
+20/12/03 13:27:31 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0014), /proxy/application_1607015337794_0014
+20/12/03 13:27:31 INFO Client: Application report for application_1607015337794_0014 (state: RUNNING)
+20/12/03 13:27:31 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020044853
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0014/
+	 user: bsuconn
+20/12/03 13:27:31 INFO YarnClientSchedulerBackend: Application application_1607015337794_0014 has started running.
+20/12/03 13:27:31 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45879.
+20/12/03 13:27:31 INFO NettyBlockTransferService: Server created on 192.168.1.9:45879
+20/12/03 13:27:31 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 13:27:31 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 45879, None)
+20/12/03 13:27:31 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:45879 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 45879, None)
+20/12/03 13:27:32 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 45879, None)
+20/12/03 13:27:32 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 45879, None)
+20/12/03 13:27:32 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:33 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 13:27:37 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 13:27:38 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:37142) with ID 1
+20/12/03 13:27:38 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 13:27:39 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:33779 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 33779, None)
+20/12/03 13:27:39 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 13:27:39 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 13:27:39 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 13:27:39 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:39 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:39 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:39 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:39 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:27:40 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:39939/files/darima.zip with timestamp 1607020060150
+20/12/03 13:27:40 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-15619c26-cbb8-4ecb-8d09-3951aa8c4411/userFiles-c3846374-5cb5-4bd1-aab8-df72bd874f29/darima.zip
+20/12/03 13:27:42 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 13:27:42 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 13:27:42 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 13:27:42 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 13:27:42 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 13:27:42 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 13:27:42 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 13:27:42 INFO MemoryStore: MemoryStore cleared
+20/12/03 13:27:42 INFO BlockManager: BlockManager stopped
+20/12/03 13:27:42 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 13:27:42 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 13:27:42 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 13:27:42 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 13:27:42 INFO ShutdownHookManager: Deleting directory /tmp/spark-15619c26-cbb8-4ecb-8d09-3951aa8c4411/pyspark-8306f02a-588e-4296-9ca0-049e0e8762c4
+20/12/03 13:27:42 INFO ShutdownHookManager: Deleting directory /tmp/spark-15619c26-cbb8-4ecb-8d09-3951aa8c4411
+20/12/03 13:27:43 INFO ShutdownHookManager: Deleting directory /tmp/spark-6280c092-0b68-4233-a039-c7cb316fa626
+20/12/03 13:27:46 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 13:27:46 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:46 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:46 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:46 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:46 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:47 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 13:27:47 INFO ResourceUtils: ==============================================================
+20/12/03 13:27:47 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 13:27:47 INFO ResourceUtils: ==============================================================
+20/12/03 13:27:47 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 13:27:47 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:47 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:47 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:47 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:48 INFO Utils: Successfully started service 'sparkDriver' on port 44089.
+20/12/03 13:27:48 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 13:27:48 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 13:27:48 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 13:27:48 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 13:27:48 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 13:27:48 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-25406e0d-f4c6-47ff-9196-40fa296d1bb4
+20/12/03 13:27:48 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 13:27:48 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 13:27:48 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 13:27:48 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 13:27:48 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 13:27:49 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 13:27:49 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 13:27:50 INFO Configuration: resource-types.xml not found
+20/12/03 13:27:50 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 13:27:50 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 13:27:50 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 13:27:50 INFO Client: Setting up container launch context for our AM
+20/12/03 13:27:50 INFO Client: Setting up the launch environment for our AM container
+20/12/03 13:27:50 INFO Client: Preparing resources for our AM container
+20/12/03 13:27:50 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 13:27:52 INFO Client: Uploading resource file:/tmp/spark-eb82f2f3-488e-4303-b216-340d07c74b4b/__spark_libs__8182408023807852993.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0015/__spark_libs__8182408023807852993.zip
+20/12/03 13:27:54 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0015/pyspark.zip
+20/12/03 13:27:54 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0015/py4j-0.10.9-src.zip
+20/12/03 13:27:55 INFO Client: Uploading resource file:/tmp/spark-eb82f2f3-488e-4303-b216-340d07c74b4b/__spark_conf__9359058080110046757.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0015/__spark_conf__.zip
+20/12/03 13:27:55 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:27:55 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:27:55 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:27:55 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:27:55 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:27:55 INFO Client: Submitting application application_1607015337794_0015 to ResourceManager
+20/12/03 13:27:55 INFO YarnClientImpl: Submitted application application_1607015337794_0015
+20/12/03 13:27:56 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:27:56 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020075358
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0015/
+	 user: bsuconn
+20/12/03 13:27:57 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:27:58 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:27:59 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:28:00 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:28:01 INFO Client: Application report for application_1607015337794_0015 (state: ACCEPTED)
+20/12/03 13:28:02 INFO Client: Application report for application_1607015337794_0015 (state: RUNNING)
+20/12/03 13:28:02 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020075358
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0015/
+	 user: bsuconn
+20/12/03 13:28:02 INFO YarnClientSchedulerBackend: Application application_1607015337794_0015 has started running.
+20/12/03 13:28:02 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40075.
+20/12/03 13:28:02 INFO NettyBlockTransferService: Server created on 192.168.1.9:40075
+20/12/03 13:28:02 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 13:28:02 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 40075, None)
+20/12/03 13:28:02 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:40075 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 40075, None)
+20/12/03 13:28:02 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 40075, None)
+20/12/03 13:28:02 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 40075, None)
+20/12/03 13:28:02 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0015), /proxy/application_1607015337794_0015
+20/12/03 13:28:03 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:04 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 13:28:10 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 13:28:12 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:57518) with ID 1
+20/12/03 13:28:12 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:36823 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 36823, None)
+20/12/03 13:28:13 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:57522) with ID 2
+20/12/03 13:28:13 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.8
+20/12/03 13:28:14 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:45053 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 45053, None)
+20/12/03 13:28:14 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 13:28:14 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 13:28:14 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 13:28:14 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:14 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:14 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:14 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:14 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:15 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:44089/files/darima.zip with timestamp 1607020095002
+20/12/03 13:28:15 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-eb82f2f3-488e-4303-b216-340d07c74b4b/userFiles-ae96a0ad-b9b0-4cff-ad82-d6b9c1bdc647/darima.zip
+20/12/03 13:28:17 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 13:28:17 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 13:28:17 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 13:28:17 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 13:28:17 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 13:28:17 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 13:28:17 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 13:28:17 INFO MemoryStore: MemoryStore cleared
+20/12/03 13:28:17 INFO BlockManager: BlockManager stopped
+20/12/03 13:28:17 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 13:28:17 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 13:28:17 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 13:28:17 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 13:28:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-eb82f2f3-488e-4303-b216-340d07c74b4b
+20/12/03 13:28:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-eb82f2f3-488e-4303-b216-340d07c74b4b/pyspark-9e15087a-b394-41e5-be4d-a1e5285dc6b9
+20/12/03 13:28:17 INFO ShutdownHookManager: Deleting directory /tmp/spark-639dcd67-1e4a-4667-b2e9-4951140bba7e
+20/12/03 13:28:20 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+20/12/03 13:28:21 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:28:21 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:28:21 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:28:21 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:28:21 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:28:22 INFO SparkContext: Running Spark version 3.0.1
+20/12/03 13:28:22 INFO ResourceUtils: ==============================================================
+20/12/03 13:28:22 INFO ResourceUtils: Resources for spark.driver:
+
+20/12/03 13:28:22 INFO ResourceUtils: ==============================================================
+20/12/03 13:28:22 INFO SparkContext: Submitted application: Spark DARIMA App
+20/12/03 13:28:22 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:28:22 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:28:22 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:28:22 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:28:22 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:28:23 INFO Utils: Successfully started service 'sparkDriver' on port 45843.
+20/12/03 13:28:23 INFO SparkEnv: Registering MapOutputTracker
+20/12/03 13:28:23 INFO SparkEnv: Registering BlockManagerMaster
+20/12/03 13:28:23 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+20/12/03 13:28:23 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+20/12/03 13:28:23 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+20/12/03 13:28:23 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-12ed29ad-676d-4abd-adc8-fabfd014a646
+20/12/03 13:28:23 INFO MemoryStore: MemoryStore started with capacity 5.8 GiB
+20/12/03 13:28:23 INFO SparkEnv: Registering OutputCommitCoordinator
+20/12/03 13:28:24 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+20/12/03 13:28:24 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+20/12/03 13:28:24 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.1.9:4041
+20/12/03 13:28:25 INFO RMProxy: Connecting to ResourceManager at /0.0.0.0:8032
+20/12/03 13:28:25 INFO Client: Requesting a new application from cluster with 1 NodeManagers
+20/12/03 13:28:26 INFO Configuration: resource-types.xml not found
+20/12/03 13:28:26 INFO ResourceUtils: Unable to find 'resource-types.xml'.
+20/12/03 13:28:26 INFO Client: Verifying our application has not requested more than the maximum memory capability of the cluster (8192 MB per container)
+20/12/03 13:28:26 INFO Client: Will allocate AM container, with 896 MB memory including 384 MB overhead
+20/12/03 13:28:26 INFO Client: Setting up container launch context for our AM
+20/12/03 13:28:26 INFO Client: Setting up the launch environment for our AM container
+20/12/03 13:28:26 INFO Client: Preparing resources for our AM container
+20/12/03 13:28:26 WARN Client: Neither spark.yarn.jars nor spark.yarn.archive is set, falling back to uploading libraries under SPARK_HOME.
+20/12/03 13:28:29 INFO Client: Uploading resource file:/tmp/spark-5f990ea1-d734-4c98-b468-b4f1e70867ee/__spark_libs__18000577418735249189.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0016/__spark_libs__18000577418735249189.zip
+20/12/03 13:28:30 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/pyspark.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0016/pyspark.zip
+20/12/03 13:28:30 INFO Client: Uploading resource file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/python/lib/py4j-0.10.9-src.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0016/py4j-0.10.9-src.zip
+20/12/03 13:28:30 INFO Client: Uploading resource file:/tmp/spark-5f990ea1-d734-4c98-b468-b4f1e70867ee/__spark_conf__5778342682856928704.zip -> hdfs://localhost:9000/user/bsuconn/.sparkStaging/application_1607015337794_0016/__spark_conf__.zip
+20/12/03 13:28:30 INFO SecurityManager: Changing view acls to: bsuconn
+20/12/03 13:28:30 INFO SecurityManager: Changing modify acls to: bsuconn
+20/12/03 13:28:30 INFO SecurityManager: Changing view acls groups to: 
+20/12/03 13:28:30 INFO SecurityManager: Changing modify acls groups to: 
+20/12/03 13:28:30 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bsuconn); groups with view permissions: Set(); users  with modify permissions: Set(bsuconn); groups with modify permissions: Set()
+20/12/03 13:28:30 INFO Client: Submitting application application_1607015337794_0016 to ResourceManager
+20/12/03 13:28:30 INFO YarnClientImpl: Submitted application application_1607015337794_0016
+20/12/03 13:28:31 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:31 INFO Client: 
+	 client token: N/A
+	 diagnostics: AM container is launched, waiting for AM container to Register with RM
+	 ApplicationMaster host: N/A
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020110947
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0016/
+	 user: bsuconn
+20/12/03 13:28:32 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:33 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:34 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:35 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:36 INFO Client: Application report for application_1607015337794_0016 (state: ACCEPTED)
+20/12/03 13:28:37 INFO YarnClientSchedulerBackend: Add WebUI Filter. org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter, Map(PROXY_HOSTS -> pop-os, PROXY_URI_BASES -> http://pop-os:8088/proxy/application_1607015337794_0016), /proxy/application_1607015337794_0016
+20/12/03 13:28:38 INFO Client: Application report for application_1607015337794_0016 (state: RUNNING)
+20/12/03 13:28:38 INFO Client: 
+	 client token: N/A
+	 diagnostics: N/A
+	 ApplicationMaster host: 192.168.1.9
+	 ApplicationMaster RPC port: -1
+	 queue: default
+	 start time: 1607020110947
+	 final status: UNDEFINED
+	 tracking URL: http://pop-os:8088/proxy/application_1607015337794_0016/
+	 user: bsuconn
+20/12/03 13:28:38 INFO YarnClientSchedulerBackend: Application application_1607015337794_0016 has started running.
+20/12/03 13:28:38 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35875.
+20/12/03 13:28:38 INFO NettyBlockTransferService: Server created on 192.168.1.9:35875
+20/12/03 13:28:38 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+20/12/03 13:28:38 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.1.9, 35875, None)
+20/12/03 13:28:38 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:35875 with 5.8 GiB RAM, BlockManagerId(driver, 192.168.1.9, 35875, None)
+20/12/03 13:28:38 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.1.9, 35875, None)
+20/12/03 13:28:38 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.1.9, 35875, None)
+20/12/03 13:28:38 INFO ServerInfo: Adding filter to /metrics/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:39 INFO YarnSchedulerBackend$YarnSchedulerEndpoint: ApplicationMaster registered as NettyRpcEndpointRef(spark-client://YarnAM)
+20/12/03 13:28:43 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 2048, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+20/12/03 13:28:45 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:49410) with ID 1
+20/12/03 13:28:45 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:37453 with 912.3 MiB RAM, BlockManagerId(1, 192.168.1.9, 37453, None)
+20/12/03 13:28:46 INFO YarnSchedulerBackend$YarnDriverEndpoint: Registered executor NettyRpcEndpointRef(spark-client://Executor) (192.168.1.9:49414) with ID 2
+20/12/03 13:28:46 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.1.9:43005 with 912.3 MiB RAM, BlockManagerId(2, 192.168.1.9, 43005, None)
+20/12/03 13:28:54 INFO YarnClientSchedulerBackend: SchedulerBackend is ready for scheduling beginning after waiting maxRegisteredResourcesWaitingTime: 30000000000(ns)
+20/12/03 13:28:55 INFO SharedState: loading hive config file: file:/home/bsuconn/spark/spark-3.0.1-bin-hadoop3.2/conf/hive-site.xml
+20/12/03 13:28:55 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse').
+20/12/03 13:28:55 INFO SharedState: Warehouse path is 'file:/home/bsuconn/Documents/Fall_2020/STAT_5825/Project/spark-warehouse'.
+20/12/03 13:28:55 INFO ServerInfo: Adding filter to /SQL: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:55 INFO ServerInfo: Adding filter to /SQL/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:55 INFO ServerInfo: Adding filter to /SQL/execution: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:55 INFO ServerInfo: Adding filter to /SQL/execution/json: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:55 INFO ServerInfo: Adding filter to /static/sql: org.apache.hadoop.yarn.server.webproxy.amfilter.AmIpFilter
+20/12/03 13:28:55 INFO SparkContext: Added file darima-master/bash/darima.zip at spark://192.168.1.9:45843/files/darima.zip with timestamp 1607020135938
+20/12/03 13:28:55 INFO Utils: Copying /home/bsuconn/Documents/Fall_2020/STAT_5825/Project/darima-master/bash/darima.zip to /tmp/spark-5f990ea1-d734-4c98-b468-b4f1e70867ee/userFiles-6205e8eb-1acf-462f-8fee-dc07e100c559/darima.zip
+20/12/03 13:28:58 INFO SparkContext: Invoking stop() from shutdown hook
+20/12/03 13:28:58 INFO SparkUI: Stopped Spark web UI at http://192.168.1.9:4041
+20/12/03 13:28:58 INFO YarnClientSchedulerBackend: Interrupting monitor thread
+20/12/03 13:28:58 INFO YarnClientSchedulerBackend: Shutting down all executors
+20/12/03 13:28:58 INFO YarnSchedulerBackend$YarnDriverEndpoint: Asking each executor to shut down
+20/12/03 13:28:58 INFO YarnClientSchedulerBackend: YARN client scheduler backend Stopped
+20/12/03 13:28:58 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+20/12/03 13:28:58 INFO MemoryStore: MemoryStore cleared
+20/12/03 13:28:58 INFO BlockManager: BlockManager stopped
+20/12/03 13:28:58 INFO BlockManagerMaster: BlockManagerMaster stopped
+20/12/03 13:28:58 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+20/12/03 13:28:58 INFO SparkContext: Successfully stopped SparkContext
+20/12/03 13:28:58 INFO ShutdownHookManager: Shutdown hook called
+20/12/03 13:28:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-5f990ea1-d734-4c98-b468-b4f1e70867ee
+20/12/03 13:28:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-50b44b05-abd7-4f32-9bf8-72a537266d6b
+20/12/03 13:28:58 INFO ShutdownHookManager: Deleting directory /tmp/spark-5f990ea1-d734-4c98-b468-b4f1e70867ee/pyspark-1ed8c49b-af57-4ddf-921c-4f5757beb073
